@@ -83,6 +83,7 @@ define([], function() {
 
 
 // TODOs (no order)
+// Weird zoom on IE11 & IE10 + project lists showing up one column. Might be a windows issue (broken in FF)
 // LinkedIn is one word
 // Check out weight on my name on the landing page
 // Add left/right key support in gallery
