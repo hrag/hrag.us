@@ -1,0 +1,353 @@
+[{
+    "name": "WiFast",
+    "id": "wifast",
+    "skills": "UX, UI, Identity, Front-end",
+    "thesis": "Concept To Product",
+    "descriptionLong": "As the first employee, I filled the design lead role at WiFast for 2.5 years. I was responsible for every aspect of design within the company. In addition, I coded the front end for all designs. WiFast was a B2B2C company.",
+    "projectImage": "/public/img/projectbgs/wifast-2000x1111.jpg",
+    "projectImageTweak": "background-position: left center;",
+    "projectTitleImage": "/public/img/titleimages/wifast.png",
+    "projectBgTiles": [
+        {
+            "top": "37.2rem",
+            "height": "40.1rem"
+        },{
+            "top": "145rem",
+            "height": "86rem"
+        },{
+            "top": "255rem",
+            "height": "69rem"
+        },{
+            "top": "341rem",
+            "height": "112rem"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/wifast/01.jpg",
+            "format": "project__screenshots--iphone project__screenshot--third project__screenshot--left",
+            "tweak": "top: 20rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/02.jpg",
+            "format": "project__screenshots--iphone project__screenshot--third project__screenshot--center",
+            "tweak": "top: 32rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/03.jpg",
+            "format": "project__screenshots--iphone project__screenshot--third project__screenshot--right",
+            "tweak": "top: 44rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/04.png",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 86rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/05.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 137rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/06.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 152rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/07.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 167rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/08.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 182rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/09.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 197rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/10.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 212rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/11.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 247rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/12.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 260rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/13.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 336rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/14.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 346rem;"
+        },{
+            "src": "/public/img/screenshots/wifast/15.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 405rem;"
+        }
+    ]
+},{
+    "name": "Birdfleet",
+    "id": "birdfleet",
+    "skills": "UX, UI, Identity, Front-end",
+    "thesis": "Simple & Beautiful",
+    "descriptionLong": "A fun side-project which allowed a user to send one-way SMS to groups of people. Great tool for making general announcements to employees. More features like the ability to reply are in the works.",
+    "projectImage": "/public/img/projectbgs/birdfleet-2000x1111.jpg",
+    "projectTypography" :"/public/img/typography/wifast-typography.png",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/public/img/titleimages/birdfleet.png",
+    "projectBgTiles": [
+        {
+            "top": "37.2rem",
+            "height": "107rem"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/birdfleet/02.png",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 30rem;"
+        },{
+            "src": "/public/img/screenshots/birdfleet/01.png",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 20rem;"
+        },{
+            "src": "/public/img/screenshots/birdfleet/03.png",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 70.7rem;"
+        },{
+            "src": "/public/img/screenshots/birdfleet/anim.gif",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 56rem;"
+        },{
+            "src": "/public/img/screenshots/birdfleet/04.png",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 84rem;"
+        },{
+            "src": "/public/img/screenshots/birdfleet/05.png",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 119.55rem;"
+        }
+    ]
+},{
+    "name": "Heavybig",
+    "id": "heavybig",
+    "skills": "Designer, Builder, UX, UI, Front-end, Identity",
+    "thesis": "Tangible",
+    "descriptionLong": "This namespace has always been the for various personal side projects I’ve had. Recently, I started to commercialize stuff I was making out of wood, specifically lamps and an Arcade Machine. The idea behind Heavybig is to design physical things with elegant UX thought put into them.",
+    "projectTitleImage": "/public/img/titleimages/heavybig.png",
+    "projectImageTweak": "background-position: right;",
+    "projectImage": "/public/img/projectbgs/heavybig-2000x1111.jpg",
+    "projectBgTiles": [
+        {
+            "top": "14.5rem",
+            "height": "125rem"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/heavybig/01.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 45rem;"
+        },{
+            "src": "/public/img/screenshots/heavybig/02.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 18rem;"
+        },{
+            "src": "/public/img/screenshots/heavybig/03.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 10rem;"
+        },{
+            "src": "/public/img/screenshots/heavybig/04.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 78rem;"
+        }
+    ]
+},{
+    "name": "Climates",
+    "id": "climates",
+    "skills": "UX, UI, Identity",
+    "thesis": "Quick & Simple",
+    "descriptionLong": "This was a fun little design project where I wanted to style a weather app to look really simple and be very basic to use.",
+    "projectImage": "/public/img/projectbgs/climates-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/public/img/titleimages/climates.png",
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/climates/01.jpg",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 4em;"
+        },{
+            "src": "/public/img/screenshots/climates/02.jpg",
+            "format": "project__screenshot--full  project__screenshot--center",
+            "tweak": "top: 42rem;"
+        }
+    ]
+},{
+    "name": "Trabbu For Travel",
+    "id": "trabbutravel",
+    "skills": "UI, UX, Identity, Front-end, Back-end",
+    "thesis": "Nothing in Return",
+    "descriptionLong": [
+        "I built this in 2011 as a crowdfunding platform to help people raise money from friends & family for travel. These types of donors tend to simply contribute to someone closer to them, just knowing it would benefit them - asking for nothing in return.",
+        "Ultimately, I helped 4 friends raise money for travel during the testing phase of Trabbu. On average, each donor’s amount came to about $40. It was awesome to see how willing people were to help others in need."
+    ],
+    "projectImage": "/public/img/projectbgs/trabbutravel-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/public/img/titleimages/trabbutravel.png",
+    "projectBgTiles": [
+        {
+            "top": "21rem",
+            "height": "79rem"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/trabbutravel/01.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 8rem;"
+        },{
+            "src": "/public/img/screenshots/trabbutravel/02.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 15rem;"
+        },{
+            "src": "/public/img/screenshots/trabbutravel/03.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 40rem;"
+        },{
+            "src": "/public/img/screenshots/trabbutravel/04.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 52.5rem;"
+        },{
+            "src": "/public/img/screenshots/trabbutravel/05.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 73rem;"
+        }
+    ]
+},{
+    "name": "No gifts, just presence",
+    "id": "nogifts",
+    "skills": "UX, UI, Identity, Front-end, Back-end",
+    "thesis": "The Event Time Capsule",
+    "descriptionLong": "One year for my birthday, I brought a blank book to my party and asked friends to write stuff in it on the basis that I wouldn’t read it for 10 years. I thought it would be neat to formally make something for this purpose, and this book is the result.",
+    "projectImage": "/public/img/projectbgs/nogifts-2000x1111.jpg",
+    "projectTypography" :"/public/img/typography/wifast-typography.png",
+    "projectPrint": "true",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/public/img/titleimages/nogifts.png",
+    "projectBgTiles": [
+        {
+            "top": "0",
+            "height": "65rem",
+            "bg": "rgba(251, 251, 251, 1)"
+        },{
+            "top": "76rem",
+            "height": "136rem",
+            "bg": "rgba(251, 251, 251, 1)"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/nogifts/01.png",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 4rem; z-index: 30;"
+        },{
+            "src": "/public/img/screenshots/nogifts/02.png",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: -1rem; z-index: 30;"
+        },{
+            "src": "/public/img/screenshots/nogifts/03.png",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 22rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/04.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 82rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/05.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 82rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/06.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 126rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/07.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 126rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/08.jpg",
+            "format": "project__screenshot--half  project__screenshot--left",
+            "tweak": "top: 169rem;"
+        },{
+            "src": "/public/img/screenshots/nogifts/09.jpg",
+            "format": "project__screenshot--half  project__screenshot--right",
+            "tweak": "top: 169rem;"
+        }
+    ]
+},{
+    "name": "Jolt",
+    "id": "jolt",
+    "skills": "Identity",
+    "thesis": "The Angles",
+    "descriptionLong": "This is the outcome of a fun little branding project I did for a potential product at WiFast. I had a lot of fun with the use of consistent angles. There ended up being no formal use for it.",
+    "projectImage": "/public/img/projectbgs/jolt-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/public/img/titleimages/jolt.png",
+    "projectBgTiles": [
+        {
+            "top": "0rem",
+            "height": "122rem",
+            "bg": "rgba(251, 251, 251, 1)"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/jolt/01.png",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 2rem; width: 28rem; margin-left: -14rem;"
+        },{
+            "src": "/public/img/screenshots/jolt/02.png",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 48rem; width: 35rem; margin-left: -17.5rem;"
+        },{
+            "src": "/public/img/screenshots/jolt/03.png",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 78rem; width: 42rem; margin-left: -21rem;"
+        },{
+            "src": "/public/img/screenshots/jolt/04.png",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 105rem; width: 40rem; margin-left: -20rem;"
+        }
+    ]
+},{
+    "name": "Trabbu P2P",
+    "id": "trabbup2p",
+    "skills": "Concept, UI, UX, Identity",
+    "thesis": "Peer to Peer Rentals",
+    "descriptionLong": "This was the original idea for Trabbu. One could list things they weren’t using, or rent things they needed from others.",
+    "projectImage": "/public/img/projectbgs/trabbup2p-2000x1111.jpg",
+    "projectImageTweak": "background-position: center top;",
+    "projectTitleImage": "/public/img/titleimages/trabbup2p.png",
+    "projectBgTiles": [
+        {
+            "top": "0rem",
+            "height": "88rem",
+            "bg": "rgba(251, 251, 251, 1)"
+        }
+    ],
+    "projectScreenshots": [
+        {
+            "src": "/public/img/screenshots/trabbup2p/01.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 2rem;"
+        },{
+            "src": "/public/img/screenshots/trabbup2p/02.jpg",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 12rem;"
+        },{
+            "src": "/public/img/screenshots/trabbup2p/03.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 43rem;"
+        }
+    ]
+}]

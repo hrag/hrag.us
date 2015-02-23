@@ -1,0 +1,407 @@
+// largeish.less
+
+
+@media only screen and (min-width: 50rem) { 
+	@import "parallax.less";
+
+	.header {
+		position: absolute;
+		.header__top-wrapper {
+			background-image: url('/public/img/epic-2000x1211.jpg');
+		}
+		.header__navigation, .menu__navigation {
+			width: 60rem;
+			margin: 4rem auto;
+			button {
+				width: 25%;
+				margin-right: 7%;
+			}
+		}
+	}
+		
+	.insignia {
+		height: 35rem;
+		max-width: 37.8rem;
+		margin: 8vh auto 0 auto;
+	}
+
+	.list {
+		position: absolute;
+		z-index: 5;
+		.list__item {
+			.border-box;
+			h3 {		
+				margin-top: -1.3rem;
+				letter-spacing: .1rem;
+				font-size: 2.6rem;
+				.transition(.1s, @cbLtrSpc);
+				font-weight: 100;
+			}
+			&:hover {
+				h3 {
+					letter-spacing: .25rem;
+				}
+			}
+		}
+	}
+
+
+	.project {
+		.project__wrapper {
+			.project__background {
+				z-index: -1;
+				height: 100vh;
+				width: 100vw;
+			}
+			.project__title {
+				background-color: transparent;
+				border: solid 1px rgb(247, 247, 247);
+				padding: 1rem;
+				width: 64rem;
+				height: 38rem;
+				position: absolute;
+				top: 50vh;
+				left: 50vw;
+				margin-top: -19rem;
+				margin-left: -32rem;
+				z-index: 2;
+				.project__title__cluster {
+					background-color: rgb(247, 247, 247);
+				}
+				h3 {
+					font-size: 2rem;
+					color: #565656;
+					margin: 5.8rem 0 0 -46%;
+				}
+				img {
+					width: 60%;
+					margin: 0 0 0 -30%;
+					bottom: 45%;
+				}
+				hr {
+					top: 55%;
+					margin-top: 2.5rem;
+				}
+			}
+			.project__contents {
+				padding-top: 100vh;
+				letter-spacing: 0;
+				font-size: 3rem;
+				.project__description {
+					padding-bottom: 8rem;
+					.project__description__print {
+						padding-bottom: 0;
+					}
+				}
+				h4 {
+					width: 55rem;
+					margin: 0 auto;
+					padding-top: 3.5em;
+					padding-bottom: 4rem;
+					text-align: center;
+					font-size: 2.5rem;
+					letter-spacing: 1.18rem;
+					color: @projectgrey;
+					.opensans-semibold;
+					text-transform: uppercase;
+					line-height: 3rem;
+				}
+				p {
+					font-size: 2rem;
+					.playfair-regular;
+					width: 55rem;
+					text-align: justify;
+					margin: 0 auto;
+					color: @projectgrey;
+					line-height: 3.3rem;
+					padding-bottom: 2rem;
+					margin-top: 1rem;
+					&:first-child {
+						margin-top: 0 !important;
+					}
+				}
+				img.project__description__typography {
+					width: 35rem;
+					margin: 0 auto;
+					display: block;
+				}
+				.project__screenshots {
+					position: relative;
+					background-size: 300%;
+					background-position: center;
+					background-attachment: fixed;
+					background-repeat: no-repeat;
+					&.project__screenshots--wifast {
+						height: 483rem !important;
+					}
+					&.project__screenshots--birdfleet {
+						height: 174rem !important;
+					}
+					&.project__screenshots--heavybig {
+						height: 175rem !important;
+					}
+					&.project__screenshots--climates {
+						height: 203rem !important;
+					}
+					&.project__screenshots--trabbutravel {
+						height: 134rem !important;
+					}
+					&.project__screenshots--nogifts {
+						height: 240rem !important;
+					}
+					&.project__screenshots--jolt {
+						height: 150rem !important;
+					}
+					&.project__screenshots--trabbup2p {
+						height: 115rem !important;
+					}
+					.project__screenshots__whiteblock {
+						background-color: rgba(255, 255, 255, .8);
+						width: 100vw;
+						position: absolute;
+						top: 10rem;
+						z-index: 1;
+					}					
+					.project__screenshot {
+						.transition(@tdScreenshot, @cbScreenshot);
+						z-index: 2;
+						width: 100%;
+						position: absolute;
+						img {
+							width: 35rem;
+							margin: 0 auto;
+							display: block;
+							width: 100%;
+						}
+					}
+					.project__screenshot--third {
+						width: 25rem;
+						margin-left: -12.5rem;
+						&.project__screenshot--left {
+							left: 25%;
+
+						}
+						&.project__screenshot--center {
+							left: 50%;
+
+						}
+						&.project__screenshot--right {
+							left: 75%;
+						}
+					}
+
+					.project__screenshot--half {
+						width: 37.5rem;
+						&.project__screenshot--left {
+							left: 33%;
+							margin-left: -22rem;
+						}
+						&.project__screenshot--right {
+							left: 66%;
+							margin-left: -15rem;
+						}
+					}
+
+					.project__screenshot--full {
+						max-width: 65rem;
+						margin-left: -32.5rem;
+						left: 50%;
+					}
+					.project__screenshots--iphone {
+						background-image: url('/public/img/screenshots/wifast/00iphone.png');
+						background-repeat: no-repeat;
+						height: 51rem;
+						background-size: 100%;
+						img {
+							position: relative;
+							top: 5.2rem;
+							width: 22.9rem;
+						}
+					}
+				}
+			}
+			.project__footer {
+				background-color: rgba(10, 30, 57, .88);
+			}
+		}
+	}
+	.about {
+		h2 {
+			font-size: 4rem;
+			top: 6vh;
+		}
+		.about__wrapper {
+			background-position: bottom;
+		}
+		.about__nav {
+			.border-box;
+			position: absolute;
+			bottom: 0;
+			margin: 0 auto;
+			width: 100vw;
+			left: 50%;
+			margin-left: -50vw;
+			text-align: center;
+			background-color: rgba(0, 0, 0, .4);
+			button {
+				margin: 2rem 0;
+				.commonButton;
+				.opensans-regular;
+				font-size: 1.6rem;
+				margin-right: 6vw;
+				border-color: transparent;
+				background-color: transparent;
+				width: 15rem;
+				height: 4.4rem;
+				padding-top: 1rem;
+				padding: 1rem 2rem;
+				&:hover {
+					background-color: rgba(255, 255, 255, .4);
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+				&.selected {
+					border-color: @commonwhite;
+					&:hover {
+						background-color: transparent;
+					}
+				}
+			}
+			.about__nav__arrow {
+				display: none;
+				bottom: 1rem;
+			}
+		}
+		.about__bg {
+			background-image: url('/public/img/about-1800x1220.jpg');
+		}
+		.about__content {
+			margin-top: 0;
+			svg {
+				width: 19rem;
+				height: 19rem;
+				margin-right: 5rem;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			.about__content__personal__glyphs {
+				max-width: 70rem;
+				text-align: center;	
+				margin: 1rem auto 3rem auto;
+			}
+			h3, h4 {
+				max-width: 70rem;
+				margin: 0 auto;
+				text-align: center;
+				color: @projectgrey;
+				.opensans-regular;
+				text-transform: uppercase;
+			}
+			h4 {
+				padding-top: 2em;
+				padding-bottom: 2rem;
+				font-size: 2.3rem;
+				letter-spacing: .2rem;
+				line-height: 2.3rem;
+			}
+			h3 {
+				padding-top: 2em;
+				padding-bottom: 1rem;
+				font-size: 1.8rem;
+				letter-spacing: .16rem;
+				line-height: 1.8rem;
+			}
+			p {
+				max-width: 70rem;
+				margin: 1rem auto;
+				.playfair-regular;
+				font-size: 1.7rem;
+				color: #444;
+				text-align: justify;
+				line-height: 3rem;
+				&.about__content--list {
+					max-width: 30rem;
+				}
+			}
+			hr {
+				.hrSmall;
+				position: static;
+				margin: 0 auto;
+				margin-top: 5rem;
+			}
+			.about__content__gallery {
+				img {
+					width: 25%;
+				}
+			}
+		}
+		.gallery__pic {
+			img {
+				margin-top: 10vh;
+				width: 63vw;
+				max-width: 70rem;
+				height: auto;
+
+			}
+			.gallery__nav {
+					margin: 2rem auto;
+				}
+		}
+	}
+	.footer {
+		font-size: 1.6rem;
+		&.footerStretch {
+			margin-bottom: 20rem;
+		}
+		ul {
+			li {
+				display: inline;
+				padding-right: 2.4rem;
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+	.menu {
+		padding: 2rem;
+		.menu__navigation {
+			width: 33.5rem;
+			button {
+				width: 10rem;
+				&:nth-child(2) {
+					margin-left: -5rem;
+				}
+			}
+		}
+		.menu__navigation__close {			
+			top: 7rem;
+		}
+		.menu__title {
+			margin-top: 6vh;
+		}
+		.menu__quickjump {
+			margin: 5vh auto;		
+			width: 33.5rem;
+			height: 33.5rem;
+			.menu__quickjump__item {
+				cursor: pointer;		
+			}
+			.menu__quickjump__item--centerpiece {
+				
+				.insignia {
+					.opacity(.92);
+					position: absolute;
+					height: 80%;
+					width: 80%;
+					margin: -32% 0 0 -40%;
+					top: 50%;
+					left: 50%;
+				}
+			}
+
+		}
+	}
+}

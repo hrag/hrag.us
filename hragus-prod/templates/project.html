@@ -1,0 +1,43 @@
+<!-- templates/project.html -->
+
+<div class="project__title">
+	<div class="project__title__cluster">
+		<img src="{{projectTitleImage}}" />
+		<hr>
+		<h3>{{skills}}</h3>
+	</div>
+</div>
+<div class="project__contents parralax__group">
+	<div class="project__background parallax__layer--back" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div>
+	<div class="project__description">
+		<h4>{{thesis}}</h4>
+		{{#descriptionLong}}
+			<p>{{.}}</p>
+		{{/descriptionLong}}
+		{{#projectTypography}}
+		<h4>Typography</h4>
+		<img class="project__description__typography" src="{{.}}" />
+		{{/projectTypography}}
+
+		{{#projectPrint}}
+		<h4 class="project__description__print">Print</h4>
+		{{/projectPrint}}
+	</div>
+	<div class="project__screenshots project__screenshots--{{id}}" style="background-image: url({{projectImage}});">
+		{{#projectBgTiles}}
+		<div class="project__screenshots__whiteblock" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;"></div>
+		{{/projectBgTiles}}
+		<div class="project__screenshots__constrictor">
+			{{#projectScreenshots}}
+			<div class="project__screenshot {{format}}" style="{{tweak}}">
+				<img src="{{src}}" />
+			</div>
+			{{/projectScreenshots}}
+		</div>
+	</div>
+	<div class="project__footer">
+		<span class="project__next">Next</span>
+		<h5>{{nextName}}</h5>
+		<button class="project__footer__next-button">Go</button>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+
+public/css/main.min.css
+----------------
+public/css/main.min.css
+
+assets/js/main.js
+----------------
+assets/js/main.js

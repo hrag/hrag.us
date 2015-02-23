@@ -1,0 +1,27 @@
+// libs/pace.less
+@import "libs/elements.less";
+
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	position: relative;
+	z-index: 2000;
+}
+
+.pace-inactive {
+	.opacity(0);
+	.transition-duration(.5s);
+}
+
+.pace .pace-progress {
+	background: #fff;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: .4rem;
+}

@@ -1,0 +1,123 @@
+// vars.less 
+
+@commonwhite: #fbfbfb;
+@tdCommon: .25s;
+@cbCommon: cubic-bezier(.29,.59,.62,.88);
+
+@cbScreenshot: cubic-bezier(.43,1.08,.65,.97);
+@tdScreenshot: .66s;
+
+@tdProj: .5s;
+@cbProj: cubic-bezier(.43,1.08,.65,.97);
+
+@projectgrey: #333;
+
+@aboutGrey: #0e0e0e;
+
+@tdLtrSpc: .05s;
+@cbLtrSpc: cubic-bezier(.72,1.15,.8,1.9);
+
+@distanceInsignia: 22rem;
+@tdInsingnia-out: 1.1s;
+@tdInsingnia-in: 1.4s;
+@cbInsignia-out: cubic-bezier(.04,.92,.41,.94);
+@cbInsignia-in: cubic-bezier(.43,1.08,.65,.97);
+
+.noverflow {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	position: fixed;
+}
+
+.displaynone {
+	display: none;
+}
+
+.roundButton {
+	height: 5.35rem;
+	width: 5.35rem;
+	.rounded(10rem);
+	border: solid 1px @commonwhite;
+	position: absolute;
+	overflow: hidden;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	.transition(.1s, @cbCommon);
+}
+
+.roundButtonX {
+	left: 50%;
+	margin-left: -2.675rem;
+	background-image: none;
+	.one, .two {
+		margin-left: -1.5rem;
+		margin-top: -.1rem;
+	}
+	.one {
+		height: .2rem;
+		width: 3rem;
+		.rotation(45deg);
+		top: 2.625rem;
+		left: 2.625rem;
+	}
+	.two {
+		height: .2rem;
+		width: 3rem;
+		.rotation(-45deg);
+		top: 2.625rem;
+		left: 2.625rem;
+	}
+	&:hover {
+		> div {
+			.opacity(1);
+		}
+		.one {
+			.rotation(180deg);
+		}
+		.two {
+			.rotation(0);
+		}
+	}
+}
+
+.commonButton {
+	border: solid .1rem @commonwhite;
+	.rounded(.2rem);
+	padding: 1rem;
+	background-color: transparent;
+	.transition(@tdCommon, @cbCommon);
+	.border-box;
+	color: @commonwhite;
+	.opensans-light;
+}
+
+.full-sized-v {
+	height: 100vh;
+	width : 100vw;
+}
+.full-sized-pct {
+	height: 100%;
+	width: 100%;
+}
+.border-box {
+	box-sizing: border-box;
+}
+
+.hrSmall {
+	position: absolute;
+	left: 50%;
+	margin-left: -2rem;
+	width: 4rem;
+	height: .1rem;
+	color: #b4b4b4;
+	background-color: #b4b4b4;
+	outline: none;
+	border: none;
+	display: block;
+}
+
+.touchScroll {
+	overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}

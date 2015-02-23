@@ -1,0 +1,62 @@
+<!-- templates/menu.html -->
+
+<div class="menu__wrapper">
+	<h1 class="menu__title">HRAG CHANCHANIAN</h1>
+	<h2 class="menu__subtitle">Designer. Coder. Builder of things.</h2>
+
+	<div class="menu__quickjump">
+		{{#.}}
+		<a href="#project/{{id}}" class="menu__quickjump__item" style="background-image: url('/public/img/listbgs/{{id}}-500x444.jpg')">{{name}}</a>
+		{{/.}}
+
+		<a href="/" class="menu__quickjump__item menu__quickjump__item--centerpiece">
+			<div class="insignia">
+				<div id="insignia__top-square" class="insignia__piece insignia__piece__top-square">
+					<svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+						<g>
+							<rect data-state id="insignia__top-square" class="insignia__piece insignia__piece--top-square" x="216.908" width="286.319" width="286.319" height="264.397"/>
+						</g>
+					</svg>
+				</div>
+
+				<div id="insignia__bottom-square" class="insignia__piece insignia__piece__bottom-square">
+					<svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+						<g>
+							<rect data-state  id="insignia__bottom-square" class="insignia__piece insignia__piece--bottom-square" x="216.908" y="277.644" width="286.319" height="264.397"/>
+						</g>
+					</svg>
+				</div>
+
+				<div id="insignia__right-triangle" class="insignia__piece insignia__piece__right-triangle">
+					<svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+						<g>
+							<polygon data-state  id="insignia__right-triangle" class="insignia__piece insignia__piece--right-triangle" points="516.473,0 516.473,542.041 672.947,271.018"/>
+						</g>
+					</svg>
+				</div>
+
+				<div id="insignia__left-triangle" class="insignia__piece insignia__piece__left-triangle">
+					<svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+						<g>
+							<polygon data-state  id="insignia__left-triangle" class="insignia__piece insignia__piece--left-triangle" points="203.662,274.644 203.662,267.397 203.662,0 203.526,0 47.053,271.018 203.526,542.041 203.662,542.041"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</a>
+
+	<nav class="menu__navigation">
+		<button class="menu__navigation__home">HOME</button>
+		<button class="menu__navigation__about">ABOUT</button>
+		<button class="menu__navigation__resume">RESUME</button>
+		<div class="menu__navigation__close">
+			<div class="one"></div>
+			<div class="two"></div>
+		</button>
+	</nav>
+</div>
