@@ -13,7 +13,8 @@ define([], function() {
 			pace: 'libs/pace.1.0.2',
 			buggyfill: 'libs/viewport-units-buggyfill',
 			lrouter: 'libs/lrouter',
-			lroutercontroller: 'libs/lroutecontroller'
+			lroutercontroller: 'libs/lroutecontroller',
+			sixty: 'libs/60fps-scroll'
 		}
 	});
 	require([
@@ -21,7 +22,8 @@ define([], function() {
 		'lrouter', 
 		'lroutercontroller',
 		'pace',
-		'buggyfill'
+		'buggyfill',
+		'sixty'
 		], 
 		function($, Router, Controller, Pace, Buggyfill) {
 
