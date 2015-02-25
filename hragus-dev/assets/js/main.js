@@ -11,8 +11,10 @@ define([], function() {
 			text: 'libs/text.2.0.13',
 			json: 'libs/json.0.4.0',
 			pace: 'libs/pace.1.0.2',
+			buggyfill: 'libs/viewport-units-buggyfill',
 			lrouter: 'libs/lrouter',
-			lroutercontroller: 'libs/lroutecontroller'
+			lroutercontroller: 'libs/lroutecontroller',
+			sixty: 'libs/60fps-scroll'
 		}
 	});
 	require([
@@ -20,8 +22,12 @@ define([], function() {
 		'lrouter', 
 		'lroutercontroller',
 		'pace',
+		'buggyfill',
+		'sixty'
 		], 
-		function($, Router, Controller, Pace) {
+		function($, Router, Controller, Pace, Buggyfill) {
+
+		Buggyfill.init();
 
 		Pace.start({
 			restartOnRequestAfter: false
@@ -79,10 +85,15 @@ define([], function() {
 });
 
 // Current
-
+// Why isn't new lib stuff showing up on dev??
 
 
 // TODOs (no order)
+
+
+// robots.text
+// Get rid of background-attachment: fixed;
+// Lightbox for project screenshots desktop
 // Weird zoom on IE11 & IE10 + project lists showing up one column. Might be a windows issue (broken in FF)
 // LinkedIn is one word
 // Check out weight on my name on the landing page
