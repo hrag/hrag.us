@@ -44,9 +44,7 @@ define([
 					window.location.hash = 'about';
 				});
 				$('.header__navigation__resume').tap(function() {
-					$.get('/public/resume/HragChanchanian-Resume.pdf', function(data) {
-						window.location = '/public/resume/HragChanchanian-Resume.pdf';
-					});
+					window.location = '/public/resume/HragChanchanian-Resume.pdf';
 				})
 
 			});
