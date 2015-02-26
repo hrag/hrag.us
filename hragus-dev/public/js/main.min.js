@@ -14,7 +14,9 @@ define([], function() {
 			buggyfill: 'libs/viewport-units-buggyfill',
 			lrouter: 'libs/lrouter',
 			lroutercontroller: 'libs/lroutecontroller',
-			sixty: 'libs/60fps-scroll'
+			sixty: 'libs/60fps-scroll',
+			menu: 'helpers/menu',
+			preload: 'helpers/preload'
 		}
 	});
 	require([
@@ -23,9 +25,11 @@ define([], function() {
 		'lroutercontroller',
 		'pace',
 		'buggyfill',
-		'sixty'
+		'menu',
+		'sixty',
+		'preload'
 		], 
-		function($, Router, Controller, Pace, Buggyfill) {
+		function($, Router, Controller, Pace, Buggyfill, Menu) {
 
 		Buggyfill.init();
 
@@ -37,13 +41,11 @@ define([], function() {
 			window.history.back();
 		})
 
-		$('.nav-menu').click(function() {
-			window.location.hash = "#menu";
-		});
+		$(['/public/img/menu-centerpiece-250x250.jpg']).preload();
 
-		// $(window).load(function() {
-		// 	console.log('loaded');
-		// });
+		$('.nav-menu').click(function() {
+			new Menu();
+		});
 
 		var home_controller = new Controller("home", {
 			index: "views/home",
@@ -84,31 +86,6 @@ define([], function() {
 	});
 });
 
-// Current
-// Why isn't new lib stuff showing up on dev??
-
-
-// TODOs (no order)
-
-
-// robots.text
-// Get rid of background-attachment: fixed;
-// Lightbox for project screenshots desktop
-// Weird zoom on IE11 & IE10 + project lists showing up one column. Might be a windows issue (broken in FF)
-// LinkedIn is one word
-// Check out weight on my name on the landing page
-// Add left/right key support in gallery
-// Base64 SVG Insignia
-// Project page background bug
-// Add insigina to footer
-// Add menu
-// Make resume
-// Smooth Scroll everywhere
-// Nice transitions for about
-// Use translate instead of positioning for about and project
-// Gallery full-width on desktop, max-width on the images to 25rem (or 30?)
-// Move menu to helper
-// Loading state
 
 
 

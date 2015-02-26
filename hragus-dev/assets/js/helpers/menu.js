@@ -1,4 +1,4 @@
-// views/menu.js
+// helpers/menu.js
 
 define([
 	'jquery',
@@ -9,10 +9,13 @@ define([
 ], function($, probject, Mustache, Insignia, Before) {
 	return function() {
 		var menu = $('.menu');
+		var navcloseback = $('.nav-closeback');
+		var navmenu = $('.nav-menu');
 
 		var before = new Before('menu');
 
 		menu.removeClass('displaynone');
+
 		$.get('/templates/menu.html', function(template) {
 			
 			var theMenu = Mustache.render(template, probject);
@@ -25,10 +28,16 @@ define([
 				window.location.hash = '#about';
 			});
 			$('.menu__navigation__resume').click(function() {
-				console.log('resume');
+				window.location = '/public/resume/HragChanchanian-Resume.pdf';
 			});
 			$('.menu__navigation__close').click(function() {
-				window.history.back();
+				menu.addClass('displaynone');
+				navmenu.removeClass('displaynone');
+				if (window.location.hash == '') {
+					navcloseback.addClass('displaynone');
+				} else {
+					navcloseback.removeClass('displaynone');
+				}
 			})
 
 		}).done(function() {

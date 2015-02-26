@@ -2,7 +2,7 @@
 
 define([
 	'jquery'
-	], 
+], 
 function($) {
 	var hideNshow = function(section) {
 		var about = $('.about');
@@ -42,6 +42,11 @@ function($) {
 			project.addClass('project--right').removeClass('project--in-view');
 		}
 		if (section == 'menu') {
+			menu.html('');
+			navcloseback.addClass('displaynone');
+			navmenu.addClass('displaynone');
+		}
+		if (section == 'resume') {
 			navcloseback.addClass('displaynone');
 			navmenu.addClass('displaynone');
 		}

@@ -6,8 +6,8 @@ define([
 	'json!projects.json',
 	'mustache',
 	'helpers/before',
-	'helpers/preload',
-	'jquerymob'
+	'jquerymob',
+	'preload'
 ], function($, probject, Mustache, Before) {
 	return function(){
 

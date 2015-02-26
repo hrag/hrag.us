@@ -1,7 +1,7 @@
 // helpers/preloader.js
 
 
-define([], function() {
+define(['jquery'], function($) {
 	$.fn.preload = function(callback) {
     	$.each(this, function(i){
     		var imgUrl = this.toString();
