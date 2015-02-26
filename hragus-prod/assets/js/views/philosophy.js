@@ -1,1 +1,0 @@
-define(["jquery","json!projects.json"],function(e,t){return function(){var e={test:t};return console.log(e),e}});

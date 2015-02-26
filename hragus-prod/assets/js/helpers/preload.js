@@ -1,1 +1,1 @@
-define([],function(){$.fn.preload=function(e){$.each(this,function(e){var t=this.toString();$.get(t,function(){$("<img/>")[0].src=t})}),typeof e=="function"&&e.call(this)}});
+define(["jquery"],function(e){e.fn.preload=function(t){e.each(this,function(t){var n=this.toString();e.get(n,function(){e("<img/>")[0].src=n})}),typeof t=="function"&&t.call(this)}});
