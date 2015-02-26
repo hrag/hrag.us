@@ -36,12 +36,13 @@ function($) {
 			menu.addClass('displaynone');
 			menu.html('');
 			navcloseback.addClass('displaynone');
-			navmenu.addClass('displaynone');
+			navmenu.removeClass('displaynone');
 			firstlook.removeClass('noverlay');
 			about.addClass('about--right').removeClass('about--in-view');
 			project.addClass('project--right').removeClass('project--in-view');
 		}
 		if (section == 'menu') {
+			menu.html('');
 			navcloseback.addClass('displaynone');
 			navmenu.addClass('displaynone');
 		}
