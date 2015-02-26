@@ -15,7 +15,8 @@ define([], function() {
 			lrouter: 'libs/lrouter',
 			lroutercontroller: 'libs/lroutecontroller',
 			sixty: 'libs/60fps-scroll',
-			menu: 'helpers/menu'
+			menu: 'helpers/menu',
+			preload: 'helpers/preload'
 		}
 	});
 	require([
@@ -25,7 +26,8 @@ define([], function() {
 		'pace',
 		'buggyfill',
 		'menu',
-		'sixty'
+		'sixty',
+		'preload'
 		], 
 		function($, Router, Controller, Pace, Buggyfill, Menu) {
 
@@ -38,6 +40,8 @@ define([], function() {
 		$('.nav-closeback').click(function() {
 			window.history.back();
 		})
+
+		$(['/public/img/menu-centerpiece-250x250.jpg']).preload();
 
 		$('.nav-menu').click(function() {
 			new Menu();
