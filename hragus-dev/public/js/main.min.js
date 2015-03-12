@@ -10,7 +10,6 @@ define([], function() {
 			mustache: 'libs/mustache',
 			text: 'libs/text.2.0.13',
 			json: 'libs/json.0.4.0',
-			// pace: 'libs/pace.1.0.2',
 			buggyfill: 'libs/viewport-units-buggyfill',
 			lrouter: 'libs/lrouter',
 			lroutercontroller: 'libs/lroutecontroller',
@@ -23,7 +22,6 @@ define([], function() {
 		'jquery',
 		'lrouter', 
 		'lroutercontroller',
-		// 'pace',
 		'buggyfill',
 		'menu',
 		'sixty',
@@ -32,10 +30,6 @@ define([], function() {
 		function($, Router, Controller, Buggyfill, Menu) {
 
 		Buggyfill.init();
-
-		// Pace.start({
-		// 	restartOnRequestAfter: false
-		// });
 
 		$('.nav-closeback').click(function() {
 			window.history.back();
