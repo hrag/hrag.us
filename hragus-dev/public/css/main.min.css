@@ -936,6 +936,7 @@ h2 {
   transition: all 0.25s cubic-bezier(0.29, 0.59, 0.62, 0.88);
   text-decoration: none;
   color: #888;
+  border-bottom: none;
 }
 .footer a:hover,
 .footer a:active {
