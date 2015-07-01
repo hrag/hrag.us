@@ -128,7 +128,7 @@ define([], function() {
     if (!this.methods.hasOwnProperty(route_name)) {
       return console.error("unhandled route for " + this.name + " controller: " + route_name);
     }
-    console.log("" + this.name + " controller rendering route: " + route_name);
+    // console.log("" + this.name + " controller rendering route: " + route_name);
     this.current_method = this.methods[route_name];
     this.current_method_name = route_name;
     if (typeof this.current_method === "function") {

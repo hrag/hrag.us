@@ -19,9 +19,8 @@ define([
 
 		// project.removeClass('project--in-view').addClass('project--right');
 		setTimeout(function() {
-			projectWrapper.html('')
+			projectWrapper.html('');
 		}, 500);
-
 		if (headerTopWrapper.html().length < 1) {
 			$.get('/templates/homeheader.html', function(template) {
 				var header = Mustache.render(template, {});
@@ -29,12 +28,14 @@ define([
 				headerTopWrapper.append(header);
 
 				var insigniaArr = new Insignia();
-
-				$('.header__navigation__projects').click(function() {
+				$('.header__navigation__projects').tap(function() {
 					if ($(window).width() < 800) {
 						var winHeight = window.screen.height;
 						window.scrollTo(0, winHeight);
 					} else {
+						$('body').animate({
+							scrollTop: $(window).height()
+						}, 667);
 						$('.firstlook').animate({
 							scrollTop: $(window).height()
 						}, 667);
