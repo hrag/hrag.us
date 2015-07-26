@@ -2,25 +2,6 @@
 
 @media only screen and (min-width: 50rem) {
 	@import "parallax.less";
-
-	// .resume {
-	// 	height: 100vh;
-	// 	width: 100vw;
-	// 	background-color: rgba(0, 0, 0, .75);
-	// 	> div {
-	// 		width: 40rem;
-	// 		margin: 0 auto;
-	// 		height: 20rem;
-	// 		ul {
-	// 			li {
-	// 				padding: 1rem;
-	// 				display: block;
-	// 				.rounded(.1rem);
-	// 			}
-	// 		}
-	// 	}
-	// }
-
 	a {
 		.transition-duration(@tdCommon);
 	}
@@ -173,7 +154,7 @@
 						height: 483rem !important;
 					}
 					&.project__screenshots--birdfleet {
-						height: 174rem !important;
+						height: 210rem !important;
 					}
 					&.project__screenshots--heavybig {
 						height: 175rem !important;
@@ -209,60 +190,45 @@
 						width: 100%;
 						position: absolute;
 						img {
-							width: 35rem;
+							// width: 35rem;
+							width: 100%;
 							margin: 0 auto;
 							display: block;
 							width: 100%;
+							cursor: pointer;
+							.transition-duration(.25s);
+							&:hover {
+								border-color: #000;
+							}
 						}
-					}
-					.project__screenshot--third {
-						width: 25rem;
-						margin-left: -12.5rem;
-						&.project__screenshot--left {
-							left: 25%;
-
-						}
-						&.project__screenshot--center {
-							left: 50%;
-
-						}
-						&.project__screenshot--right {
-							left: 75%;
+						p {
+							width: 100%;
+							align: justify;
 						}
 					}
 
 					.project__screenshot--half {
-						width: 37.5rem;
+						width: 35rem;
 						&.project__screenshot--left {
-							left: 33%;
-							margin-left: -22rem;
+							left: 50%;
+							margin-left: -37.5rem;
 						}
 						&.project__screenshot--right {
-							left: 66%;
-							margin-left: -15rem;
+							left: 50%;
+							margin-left: 2.5rem;
 						}
 					}
 
 					.project__screenshot--full {
-						max-width: 65rem;
-						margin-left: -32.5rem;
+						max-width: 75rem;
+						margin-left: -37.5rem;
 						left: 50%;
 					}
-					.project__screenshots--iphone {
-						background-image: url('/public/img/screenshots/wifast/00iphone.png');
-						background-repeat: no-repeat;
-						height: 51rem;
-						background-size: 100%;
-						img {
-							position: relative;
-							top: 5.2rem;
-							width: 22.9rem;
-						}
-					}
+
 				}
 			}
 			.project__footer {
-				background-color: rgba(10, 30, 57, .88);
+				background-color: rgba(10, 30, 57, 1);
 			}
 		}
 	}

@@ -87,7 +87,7 @@ h2 {
 
 
 .list {
-	
+
 	.list__wrapper {
 		overflow: auto;
 		z-index: 5;
@@ -162,7 +162,7 @@ h2 {
 		}
 		.project__title {
 			.border-box;
-			background-color: #f7f7f7;
+			background-color: @titleBG;
 			text-align: center;
 			z-index: 2;
 			h3 {
@@ -206,6 +206,52 @@ h2 {
 					max-width: 130rem;
 					position: relative;
 					margin: 0 auto;
+				}
+				.project__screenshot {
+					figcaption {
+						.playfair-regular;
+						font-size: 1.3rem;
+						text-align: center;
+						margin-top: .8em;
+						color: #111;
+						span {
+							font-size: 1.1rem;
+							.playfair-bolditalic;
+							color: #444;
+						}
+					}
+					a.project-url {
+						text-decoration: none;
+						border: none !important;
+					}
+					img {
+						.border-box;
+						border: solid 1px #8b8b8b;
+					}
+					button {
+						.rounded(5px);
+						height: 5rem;
+						width: 20rem;
+						background-color: #0079df;
+						border: none;
+						color: @commonwhite;
+						font-size: 2rem;
+						.opensans-regular;
+					}
+					ul, ol {
+						.playfair-regular;
+						font-size: 2rem;
+						color: @projectgrey;
+						li {
+							margin-left: 2rem;
+							margin-bottom: 1rem;
+							list-style: disc;
+						}
+					}
+					ol li {
+						list-style: decimal;
+						margin-bottom: 1.3rem;
+					}
 				}
 			}
 		}
@@ -267,7 +313,7 @@ h2 {
 	ul {
 		display: inline-block;
 		li {
-			
+
 		}
 	}
 }
@@ -314,7 +360,7 @@ h2 {
 	}
 	.about__bg {
 		height: 100vh;
-		width: 100vw;		
+		width: 100vw;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -348,7 +394,7 @@ h2 {
 				background-repeat: no-repeat;
 				background-color: transparent;
 				.transition(.1s, @cbCommon);
-				
+
 				> div {
 					.transition(@tdCommon, @cbCommon);
 					background-color: @commonwhite;
@@ -478,7 +524,7 @@ h2 {
 		.transition(@tdCommon, @cbCommon);
 	}
 }
-.nav-closeback { 
+.nav-closeback {
 	left: 2rem;
 
 	> div {
@@ -496,7 +542,7 @@ h2 {
 	.two {
 		.transform(rotate(-45deg));
 	}
-		
+
 
 	&.close {
 		> div {
@@ -659,17 +705,17 @@ h2 {
 			&:nth-child(2) {
 				top: 0;
 				left: 33.33333%;
-				
+
 			}
 			&:nth-child(3) {
 				top: 0;
 				left: 66.66666%;
-				
+
 			}
 			&:nth-child(4) {
 				top: 33.33333%;
 				left: 0;
-				
+
 			}
 			&:nth-child(5) {
 				top: 33.33333%;
@@ -680,17 +726,17 @@ h2 {
 				top: 66.66666%;
 				left: 0;
 				padding-top: 11%;
-				
+
 			}
 			&:nth-child(7) {
 				top: 66.66666%;
 				left: 33.33333%;
-				
+
 			}
 			&:nth-child(8) {
 				top: 66.66666%;
 				left: 66.66666%;
-				
+
 			}
 			&:nth-child(9) {
 				top: 33.33333%;

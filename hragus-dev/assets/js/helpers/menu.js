@@ -17,7 +17,7 @@ define([
 		menu.removeClass('displaynone');
 
 		$.get('/templates/menu.html', function(template) {
-			
+
 			var theMenu = Mustache.render(template, probject);
 			menu.append(theMenu);
 

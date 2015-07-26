@@ -808,7 +808,7 @@ h2 {
 }
 .project .project__wrapper .project__title {
   box-sizing: border-box;
-  background-color: #f7f7f7;
+  background-color: #f3f3f3;
   text-align: center;
   z-index: 2;
 }
@@ -871,6 +871,58 @@ h2 {
   max-width: 130rem;
   position: relative;
   margin: 0 auto;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot figcaption {
+  font-family: 'playfair-regular', 'Times New Roman';
+  font-weight: 200;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: .8em;
+  color: #111;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot figcaption span {
+  font-size: 1.1rem;
+  font-family: 'playfair-bolditalic', 'Times New Roman';
+  font-weight: 500;
+  color: #444;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot a.project-url {
+  text-decoration: none;
+  border: none !important;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
+  box-sizing: border-box;
+  border: solid 1px #8b8b8b;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 5rem;
+  width: 20rem;
+  background-color: #0079df;
+  border: none;
+  color: #fbfbfb;
+  font-size: 2rem;
+  font-family: 'opensans-regular', 'HelveticaNeue', 'Helvetica Neue', 'HelveticaNeueRoman', 'HelveticaNeue-Roman', 'Helvetica Neue Roman', 'TeXGyreHerosRegular', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+  font-weight: 100;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot ul,
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot ol {
+  font-family: 'playfair-regular', 'Times New Roman';
+  font-weight: 200;
+  font-size: 2rem;
+  color: #333333;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot ul li,
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot ol li {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  list-style: disc;
+}
+.project .project__wrapper .project__contents .project__screenshots .project__screenshot ol li {
+  list-style: decimal;
+  margin-bottom: 1.3rem;
 }
 .project .project__wrapper .project__footer {
   position: absolute;
@@ -1703,7 +1755,7 @@ h2 {
     height: 483rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--birdfleet {
-    height: 174rem !important;
+    height: 210rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--heavybig {
     height: 175rem !important;
@@ -1743,53 +1795,40 @@ h2 {
     position: absolute;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
-    width: 35rem;
     margin: 0 auto;
     display: block;
     width: 100%;
+    cursor: pointer;
+    -moz-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
   }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third {
-    width: 25rem;
-    margin-left: -12.5rem;
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot img:hover {
+    border-color: #000;
   }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third.project__screenshot--left {
-    left: 25%;
-  }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third.project__screenshot--center {
-    left: 50%;
-  }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third.project__screenshot--right {
-    left: 75%;
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot p {
+    width: 100%;
+    align: justify;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot--half {
-    width: 37.5rem;
+    width: 35rem;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot--half.project__screenshot--left {
-    left: 33%;
-    margin-left: -22rem;
+    left: 50%;
+    margin-left: -37.5rem;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot--half.project__screenshot--right {
-    left: 66%;
-    margin-left: -15rem;
+    left: 50%;
+    margin-left: 2.5rem;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot--full {
-    max-width: 65rem;
-    margin-left: -32.5rem;
+    max-width: 75rem;
+    margin-left: -37.5rem;
     left: 50%;
   }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshots--iphone {
-    background-image: url('/public/img/screenshots/wifast/00iphone.png');
-    background-repeat: no-repeat;
-    height: 51rem;
-    background-size: 100%;
-  }
-  .project .project__wrapper .project__contents .project__screenshots .project__screenshots--iphone img {
-    position: relative;
-    top: 5.2rem;
-    width: 22.9rem;
-  }
   .project .project__wrapper .project__footer {
-    background-color: rgba(10, 30, 57, 0.88);
+    background-color: #0a1e39;
   }
   .about h2 {
     font-size: 4rem;
@@ -2060,8 +2099,8 @@ h2 {
     display: none;
   }
   .project .project__wrapper .project__contents h4 {
-    width: 90%;
-    margin: 0 5%;
+    width: 100%;
+    margin: 0;
     padding-top: 3.5em;
     padding-bottom: 4rem;
     text-align: center;
@@ -2077,9 +2116,9 @@ h2 {
     font-size: 1.8rem;
     font-family: 'playfair-regular', 'Times New Roman';
     font-weight: 200;
-    width: 90%;
+    width: 100%;
     text-align: justify;
-    margin: 0 5%;
+    margin: 0;
     color: #333333;
     line-height: 2.75rem;
     padding-bottom: 2rem;
@@ -2093,11 +2132,11 @@ h2 {
     margin: 0 5% 0 5%;
   }
   .project .project__wrapper .project__contents .project__screenshots {
-    background-color: #222;
+    background-color: #fbfbfb;
     background-image: none !important;
   }
-  .project .project__wrapper .project__contents .project__screenshots.project__screenshots--wifast {
-    height: 820rem;
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshots__constrictor {
+    background-color: #fbfbfb;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshots__whiteblock {
     display: none;
@@ -2105,7 +2144,7 @@ h2 {
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot {
     width: auto !important;
     margin: auto !important;
-    padding: 4rem 1rem 0 1rem;
+    padding: 0 2rem 0 2rem;
     background-color: transparent;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
@@ -2113,8 +2152,19 @@ h2 {
     width: 100%;
     height: auto;
   }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot p {
+    margin-top: 2rem !important;
+  }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot li {
+    font-size: 1.8rem;
+  }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot figcaption {
+    margin-bottom: 3.5rem;
+  }
   .project .project__wrapper .project__footer {
-    background-color: transparent;
+    position: relative;
+    margin-top: 5rem;
+    background-color: #0a1e39;
   }
   .about {
     position: fixed;

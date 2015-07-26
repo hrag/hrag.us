@@ -100,8 +100,8 @@
 					}
 				}
 				h4 {
-					width: 90%;
-					margin: 0 5%;
+					width: 100%;
+					margin: 0;
 					padding-top: 3.5em;
 					padding-bottom: 4rem;
 					text-align: center;
@@ -115,9 +115,9 @@
 				p {
 					font-size: 1.8rem;
 					.playfair-regular;
-					width: 90%;
+					width: 100%;
 					text-align: justify;
-					margin: 0 5%;
+					margin: 0;
 					color: @projectgrey;
 					line-height: 2.75rem;
 					padding-bottom: 2rem;
@@ -131,10 +131,10 @@
 					margin: 0 5% 0 5%;
 				}
 				.project__screenshots {
-					background-color: #222;
+					background-color: @commonwhite;
 					background-image: none !important;
-					&.project__screenshots--wifast {
-						height: 820rem;
+					.project__screenshots__constrictor {
+						background-color: @commonwhite;
 					}
 					.project__screenshots__whiteblock {
 						display: none;
@@ -142,21 +142,29 @@
 					.project__screenshot {
 						width: auto !important;
 						margin: auto !important;
-						padding: 4rem 1rem 0 1rem;
+						padding: 0 2rem 0 2rem;
 						background-color: transparent;
 						img {
 							border: none !important;
-							// margin: 0 1% 0 1%;
 							width: 100%;
-							// margin: 0 2%;
-
 							height: auto;
+						}
+						p {
+							margin-top: 2rem !important;
+						}
+						li {
+							font-size: 1.8rem;
+						}
+						figcaption {
+							margin-bottom: 3.5rem;
 						}
 					}
 				}
 			}
 			.project__footer {
-				background-color: transparent;
+				position: relative;
+				margin-top: 5rem;
+				background-color: rgba(10, 30, 57, 1);
 			}
 		}
 	}

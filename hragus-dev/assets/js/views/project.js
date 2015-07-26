@@ -29,6 +29,9 @@ define([
 			if (nextProj >= len) {
 				nextProj = 0;
 			}
+			if (nextProj == len-1) {
+				nextProj = 0;
+			}
 			return nextProj;
 		}
 
@@ -61,12 +64,12 @@ define([
 			projectWrapper.append(theProject);
 
 			// TODO - put this into a function of sorts
-			totalHeight = totalHeight + $(window).height() / 2;
-			$('.project__screenshot img').load(function() {
-				totalHeight += $(this).height()+39;
-				totalHeight = totalHeight;
-				$('.project__screenshots').css({'height': (totalHeight * .1)+'rem'});
-			});
+			// totalHeight = totalHeight + $(window).height() / 2;
+			// $('.project__screenshot img').load(function() {
+			// 	totalHeight += $(this).height()+39;
+			// 	totalHeight = totalHeight;
+			// 	$('.project__screenshots').css({'height': (totalHeight * .1)+'rem'});
+			// });
 
 			$('.project__footer__next-button').tap(function() {
 				window.location.hash = 'project/'+nextProjId;

@@ -11,12 +11,18 @@
 	<div class="project__background parallax__layer--back" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div>
 	<div class="project__screenshots project__screenshots--{{id}}" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;">
 		<div class="project__screenshots__constrictor">
-
 			{{#projectContents}}
 			<div class="project__screenshot {{format}}" style="{{tweak}}">
-				<img src="{{src}}" />
-				<h4>{{headline}}</h4>
-				<p>{{text}}</p>
+				{{#src}}
+					<figure>
+						<img src="{{.}}" />
+						{{#figureno}}<figcaption><span>Figure {{.}}:</span> {{caption}}</figcaption>{{/figureno}}
+					</figure>{{/src}}
+				{{#headline}}<h4>{{.}}</h4>{{/headline}}
+				{{#text}}<p>{{.}}</p>{{/text}}
+				<ul>{{#list}}<li>{{.}}</li>{{/list}}</ul>
+				<ol>{{#olist}}<li>{{.}}</li>{{/olist}}</ol>
+				{{#link}}<a class="project-url" href="{{.}}" title="go to {{name}}"><button>Go to {{name}}</button></a>{{/link}}
 			</div>
 			{{/projectContents}}
 		</div>
