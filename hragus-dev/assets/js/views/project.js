@@ -50,13 +50,13 @@ define([
 				}
 			});
 			var theProject = Mustache.render(template, probject[projIndex]);
-			$.each(probject[projIndex].projectScreenshots, function() {
-				projImgSrcs.push(this.src);
-			});
+			// $.each(probject[projIndex].projectContents, function() {
+			// 	projImgSrcs.push(this.src)
+			// });
 
-			$(projImgSrcs).preload(function() {
+			// $(projImgSrcs).preload(function() {
 				project.removeClass('project--right').addClass('project--in-view');
-			});
+			// });
 
 			projectWrapper.append(theProject);
 
@@ -73,15 +73,15 @@ define([
 			});
 
 		}).done(function() {
-		    console.log(whichProject+" loaded");
+		    // console.log(whichProject+" loaded");
 		});
-		
+
 		if (projectFooter.length < 1) {
 			$.get('/templates/footer.html', function(template) {
 				var theFooter = Mustache.render(template, {});
 				project.append(theFooter);
 			});
 		}
-			
+
 	};
 });

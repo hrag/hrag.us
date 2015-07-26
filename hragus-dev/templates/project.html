@@ -9,30 +9,16 @@
 </div>
 <div class="project__contents parralax__group">
 	<div class="project__background parallax__layer--back" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div>
-	<div class="project__description">
-		<h4>{{thesis}}</h4>
-		{{#descriptionLong}}
-			<p>{{.}}</p>
-		{{/descriptionLong}}
-		{{#projectTypography}}
-		<h4>Typography</h4>
-		<img class="project__description__typography" src="{{.}}" />
-		{{/projectTypography}}
-
-		{{#projectPrint}}
-		<h4 class="project__description__print">Print</h4>
-		{{/projectPrint}}
-	</div>
-	<div class="project__screenshots project__screenshots--{{id}}" style="background-image: url({{projectImage}});">
-		{{#projectBgTiles}}
-		<div class="project__screenshots__whiteblock" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;"></div>
-		{{/projectBgTiles}}
+	<div class="project__screenshots project__screenshots--{{id}}" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;">
 		<div class="project__screenshots__constrictor">
-			{{#projectScreenshots}}
+
+			{{#projectContents}}
 			<div class="project__screenshot {{format}}" style="{{tweak}}">
 				<img src="{{src}}" />
+				<h4>{{headline}}</h4>
+				<p>{{text}}</p>
 			</div>
-			{{/projectScreenshots}}
+			{{/projectContents}}
 		</div>
 	</div>
 	<div class="project__footer">

@@ -11,19 +11,14 @@
         {
             "top": "37.2rem",
             "height": "40.1rem"
-        },{
-            "top": "145rem",
-            "height": "86rem"
-        },{
-            "top": "255rem",
-            "height": "69rem"
-        },{
-            "top": "341rem",
-            "height": "112rem"
         }
     ],
-    "projectScreenshots": [
-        {
+    "projectContents": [
+    	{
+    		"headline": "This is a headline",
+    		"text": "Here's some text",
+    		"tweak": "top: 20rem; width: 10rem;"
+    	},{
             "src": "/public/img/screenshots/wifast/01.jpg",
             "format": "project__screenshots--iphone project__screenshot--third project__screenshot--left",
             "tweak": "top: 20rem;"
@@ -91,7 +86,7 @@
     "skills": "UX, UI, Identity, Front-end",
     "thesis": "Simple & Beautiful",
     "descriptionLong": "A fun side-project which allowed a user to send one-way SMS to groups of people. Great tool for making general announcements to employees. More features like the ability to reply are in the works.",
-    "projectImage": "/public/img/projectbgs/birdfleet-2000x1111.jpg",
+    "projectImage": "/public/img/xprojectbgs/birdfleet-2000x1111.jpg",
     "projectTypography" :"/public/img/typography/wifast-typography.png",
     "projectImageTweak": "background-position: center;",
     "projectTitleImage": "/public/img/titleimages/birdfleet.png",
@@ -101,7 +96,7 @@
             "height": "107rem"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/birdfleet/02.png",
             "format": "project__screenshot--half  project__screenshot--left",
@@ -143,7 +138,7 @@
             "height": "125rem"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/heavybig/01.jpg",
             "format": "project__screenshot--half project__screenshot--left",
@@ -171,7 +166,7 @@
     "projectImage": "/public/img/projectbgs/climates-2000x1111.jpg",
     "projectImageTweak": "background-position: center;",
     "projectTitleImage": "/public/img/titleimages/climates.png",
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/climates/01.jpg",
             "format": "project__screenshot--full project__screenshot--center",
@@ -200,7 +195,7 @@
             "height": "79rem"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/trabbutravel/01.jpg",
             "format": "project__screenshot--half project__screenshot--left",
@@ -245,7 +240,7 @@
             "bg": "rgba(251, 251, 251, 1)"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/nogifts/01.png",
             "format": "project__screenshot--half project__screenshot--left",
@@ -300,7 +295,7 @@
             "bg": "rgba(251, 251, 251, 1)"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/jolt/01.png",
             "format": "project__screenshot--full project__screenshot--center",
@@ -335,7 +330,7 @@
             "bg": "rgba(251, 251, 251, 1)"
         }
     ],
-    "projectScreenshots": [
+    "projectContents": [
         {
             "src": "/public/img/screenshots/trabbup2p/01.jpg",
             "format": "project__screenshot--half project__screenshot--left",

@@ -22,7 +22,7 @@
 
 define([], function() {
  	'use strict';
-	  
+
 	function Router(routes) {
 		this.routes = routes != null ? routes : {};
 		this.setup_routes();
@@ -83,7 +83,7 @@ define([], function() {
             break;
           }
         }
-        console.log(wildcards);
+        // console.log(wildcards);
       }
       if (!found) {
         console.error("routing error for '" + path + "'; no handler found");
