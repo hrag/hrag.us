@@ -71,13 +71,20 @@ define([
 			screenshotLink.each(function() {
 				var theLink = $(this).attr('href');
 				$(this).click(function(e) {
-					console.log(theLink);
 					e.preventDefault();
 					screenshotLocale.find('img').attr('src', theLink);
 					screenshotLocale.fadeIn(300);
+					$(document).keyup(function(e){
+					    if(e.keyCode === 27) {
+					        screenshotLocale.fadeOut(300, function() {
+								$(this).find('img').attr('src', '');
+							});
+						}
+					});
 					screenshotLocale.click(function() {
-						$(this).fadeOut(300);
-						$(this).find('img').attr('src', '');
+						$(this).fadeOut(300, function() {
+							$(this).find('img').attr('src', '');
+						});
 					})
 				});
 			});

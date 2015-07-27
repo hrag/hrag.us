@@ -729,7 +729,7 @@ h2 {
   top: 0;
   left: 0;
   text-align: center;
-  background-color: #fbfbfb;
+  background-color: rgba(255, 255, 255, 0.92);
   min-height: 100%;
   width: 100%;
   z-index: 111;
@@ -2091,6 +2091,9 @@ h2 {
   .list .list__item--nogifts h3,
   .list .list__item--trabbutravel h3 {
     margin-top: -2rem;
+  }
+  .screenshot img {
+    width: 100%;
   }
   .project {
     overflow-y: scroll;
