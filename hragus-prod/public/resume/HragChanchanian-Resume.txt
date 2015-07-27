@@ -1,0 +1,81 @@
+Hrag Chanchanian, a universal UI designer
+with a knack for UX (who also codes).
+
+Portfolio: www.hrag.us
+LinkedIn: linkd.in/hragg
+Email: hragatron@gmail.com
+Phone: (408) 202-8835
+Address: 16397 E. La Chiquita Ave. Unit B. Los Gatos, CA 95032
+
+
+== ROLE ==
+Design Lead, Web Developer @ Zenreach (formerly WiFast)  |  April 2012  July 2014
+
+As employee #1 my role was to own everything design, in addition to
+bringing them to fruition. This included all UX, UI, aesthetics, identity and
+further, the front-end code. All design work started on a pad or a
+whiteboard, into wireframes, low-res mockups, then final hi-res versions
+ready for user testing. This method allowed for great, usable final
+products.
+
+
+== ROLE ==
+Director of Technical Operations, Designer, Web Developer @ Qik - Skype - Microsoft  |  June 2008  April 2012
+
+I joined Qik early on as a developer. But, like in most startups, roles
+shifted around. I played an important part in the company over the years
+and was named a key employee in the acquisition by Skype in 2011. I
+designed, and branded the app which would go to provide the first real
+revenue for the company. In parallel, I had the opportunity to help out in
+our data center. Ultimately, I was given the responsibility of building up
+and looking after the companys physical server infrastructure - a task I
+had never encountered. I gladly, single-handedly built-up and maintained
+the server foundation that Qiks technology stood on. This eventually
+involved strict SLAs with mobile carriers which meant being on-call 24/7.
+In addition, I spent a lot of time constantly optimizing and improving the
+service wherever I could. The end result was hundreds of servers
+operating globally on a plan designed and executed by me.
+
+
+== ROLE ==
+Owner @ Heavybig  |  January 2009  Present
+
+This is basically a vessel for other creative projects Ive done over the
+years. Its gone from freelance design to today, a name I use for the
+physical products/projects Ive worked on. Its the stuff I do for fun!
+
+
+== PHILOSOPHY ==
+My philosophy orbits around a star
+called thoughtfulness." Empathize
+with the user, no matter what the
+product is. I feel if being thoughtful is
+at the top of the list when entering a
+project - the outcome will be great.
+
+
+== SKILLS ==
+- Design
+- Concept
+- Collaboration
+- Prototyping
+- Analog sketching
+- Wireframing
+- Vector illustration
+- Illustrator
+- Photoshop
+- A/B & performance testing
+- Git
+- Javascript, Jquery, Zepto, AMD
+- CSS/LESS/SASS/SCSS
+- HTML5
+- Python (comfortable), Ruby (familiar)
+- Require, Backbone, Angular (familiar)
+- 3D Modeling
+- General Wood & Metal working
+- 2D/3D CNC + CAM
+- Metal Lathe
+- Laser Cutter
+- Welding
+- 3D Printing
+- Rubiks Cubes

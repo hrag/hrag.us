@@ -9,30 +9,23 @@
 </div>
 <div class="project__contents parralax__group">
 	<div class="project__background parallax__layer--back" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div>
-	<div class="project__description">
-		<h4>{{thesis}}</h4>
-		{{#descriptionLong}}
-			<p>{{.}}</p>
-		{{/descriptionLong}}
-		{{#projectTypography}}
-		<h4>Typography</h4>
-		<img class="project__description__typography" src="{{.}}" />
-		{{/projectTypography}}
-
-		{{#projectPrint}}
-		<h4 class="project__description__print">Print</h4>
-		{{/projectPrint}}
-	</div>
-	<div class="project__screenshots project__screenshots--{{id}}" style="background-image: url({{projectImage}});">
-		{{#projectBgTiles}}
-		<div class="project__screenshots__whiteblock" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;"></div>
-		{{/projectBgTiles}}
+	<div class="project__screenshots project__screenshots--{{id}}" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;">
 		<div class="project__screenshots__constrictor">
-			{{#projectScreenshots}}
+			{{#projectContents}}
 			<div class="project__screenshot {{format}}" style="{{tweak}}">
-				<img src="{{src}}" />
+				{{#src}}
+					<figure>
+						<a href="{{src_lg}}" class="project__screenshot__link"><img src="{{.}}" style="{{imgtweak}}"/></a>
+						{{#figureno}}<figcaption><span>Figure {{.}}:</span> {{caption}}</figcaption>{{/figureno}}
+					</figure>
+				{{/src}}
+				{{#headline}}<h4>{{.}}</h4>{{/headline}}
+				{{#text}}<p>{{.}}</p>{{/text}}
+				<ul>{{#list}}<li>{{.}}</li>{{/list}}</ul>
+				<ol>{{#olist}}<li>{{.}}</li>{{/olist}}</ol>
+				{{#link}}<a class="project-url" href="{{.}}" title="go to {{name}}"><button>Go to {{name}}</button></a>{{/link}}
 			</div>
-			{{/projectScreenshots}}
+			{{/projectContents}}
 		</div>
 	</div>
 	<div class="project__footer">
