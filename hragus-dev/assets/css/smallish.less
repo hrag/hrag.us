@@ -63,14 +63,16 @@
 	}
 
 	.screenshot {
-		overflow-y: auto;
+
+		-webkit-overflow-scrolling: touch;
+		overflow-y: scroll;
 		img {
-			margin-top: 3rem;
+			margin-top: 3.5rem;
 			width: 100%;
 		}
 		.close-notice {
 			position: absolute;
-			top: 1rem;
+			top: .5rem;
 			left: 50%;
 			width: 15rem;
 			padding-top: .5rem;
