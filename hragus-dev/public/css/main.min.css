@@ -1648,6 +1648,9 @@ h2 {
     max-width: 37.8rem;
     margin: 8vh auto 0 auto;
   }
+  .screenshot .close-notice {
+    display: none;
+  }
   .list {
     position: absolute;
     z-index: 5;
@@ -2092,8 +2095,32 @@ h2 {
   .list .list__item--trabbutravel h3 {
     margin-top: -2rem;
   }
+  .screenshot {
+    overflow-y: auto;
+  }
   .screenshot img {
+    margin-top: 3rem;
     width: 100%;
+  }
+  .screenshot .close-notice {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    width: 15rem;
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+    margin-left: -7.5rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #0a1e39;
+  }
+  .screenshot .close-notice:before {
+    content: "Tap anywhere to close";
+    font-family: 'opensans-regular', 'HelveticaNeue', 'Helvetica Neue', 'HelveticaNeueRoman', 'HelveticaNeue-Roman', 'Helvetica Neue Roman', 'TeXGyreHerosRegular', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fbfbfb;
   }
   .project {
     overflow-y: scroll;

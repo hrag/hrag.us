@@ -63,8 +63,28 @@
 	}
 
 	.screenshot {
+		overflow-y: auto;
 		img {
+			margin-top: 3rem;
 			width: 100%;
+		}
+		.close-notice {
+			position: absolute;
+			top: 1rem;
+			left: 50%;
+			width: 15rem;
+			padding-top: .5rem;
+			padding-bottom: .7rem;
+			margin-left: -7.5rem;
+			.rounded(.3rem);
+			background-color: #0a1e39;
+			&:before {
+				content: "Tap anywhere to close";
+				.opensans-regular;
+				font-size: 1rem;
+				color: @commonwhite;
+
+			}
 		}
 	}
 
