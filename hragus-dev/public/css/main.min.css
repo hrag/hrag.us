@@ -730,11 +730,13 @@ h2 {
   left: 0;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.92);
-  height: 2000px;
+  min-height: 100%;
   width: 100%;
   z-index: 111;
   cursor: url('/public/img/close_cursor.ico'), default;
   overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch
+	overflow: scroll;
 }
 .list .list__wrapper {
   overflow: auto;
