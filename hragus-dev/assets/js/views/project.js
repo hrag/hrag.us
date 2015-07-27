@@ -37,6 +37,8 @@ define([
 
 		$.get('/templates/project.html', function(template) {
 
+
+
 			var nextProjId;
 			var probjectLength = probject.length;
 			$.each(probject, function(i) {
@@ -62,6 +64,23 @@ define([
 			// });
 
 			projectWrapper.append(theProject);
+
+
+			var screenshotLink = $('.project__screenshot__link');
+			var screenshotLocale = $('.screenshot');
+			screenshotLink.each(function() {
+				var theLink = $(this).attr('href');
+				$(this).click(function(e) {
+					console.log(theLink);
+					e.preventDefault();
+					screenshotLocale.find('img').attr('src', theLink);
+					screenshotLocale.fadeIn(300);
+					screenshotLocale.click(function() {
+						$(this).fadeOut(300);
+						$(this).find('img').attr('src', '');
+					})
+				});
+			});
 
 			// TODO - put this into a function of sorts
 			// totalHeight = totalHeight + $(window).height() / 2;

@@ -724,6 +724,18 @@ h2 {
 .menu__navigation button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+.screenshot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: #fbfbfb;
+  min-height: 100%;
+  width: 100%;
+  z-index: 111;
+  cursor: url('/public/img/close_cursor.ico'), default;
+  overflow-x: auto !important;
+}
 .list .list__wrapper {
   overflow: auto;
   z-index: 5;
@@ -773,10 +785,10 @@ h2 {
   z-index: 20;
   overflow-x: none;
   background-color: #fbfbfb;
-  -webkit-transition: all 0.5s cubic-bezier(0.43, 1.08, 0.65, 0.97);
-  -moz-transition: all 0.5s cubic-bezier(0.43, 1.08, 0.65, 0.97);
-  -o-transition: all 0.5s cubic-bezier(0.43, 1.08, 0.65, 0.97);
-  transition: all 0.5s cubic-bezier(0.43, 1.08, 0.65, 0.97);
+  -webkit-transition: all 0.3s cubic-bezier(0.43, 1.08, 0.65, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0.43, 1.08, 0.65, 0.97);
+  -o-transition: all 0.3s cubic-bezier(0.43, 1.08, 0.65, 0.97);
+  transition: all 0.3s cubic-bezier(0.43, 1.08, 0.65, 0.97);
 }
 .project.project--right {
   -webkit-transform: translateX(100vw);
@@ -889,10 +901,11 @@ h2 {
 .project .project__wrapper .project__contents .project__screenshots .project__screenshot a.project-url {
   text-decoration: none;
   border: none !important;
+  outline: none;
 }
 .project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
   box-sizing: border-box;
-  border: solid 1px #8b8b8b;
+  border: solid 1px #eaeaea;
 }
 .project .project__wrapper .project__contents .project__screenshots .project__screenshot button {
   -webkit-border-radius: 5px;
@@ -1716,7 +1729,7 @@ h2 {
     padding-top: 3.5em;
     padding-bottom: 4rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     letter-spacing: 1.18rem;
     color: #333333;
     font-family: 'opensans-semibold', 'HelveticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'HelveticaNeue', 'Helvetica Neue', 'TeXGyreHerosRegular', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
@@ -1752,31 +1765,31 @@ h2 {
     width: auto;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--wifast {
-    height: 483rem !important;
+    height: 263rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--birdfleet {
     height: 210rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--heavybig {
-    height: 175rem !important;
+    height: 325rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--climates {
-    height: 203rem !important;
+    height: 106rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--trabbutravel {
-    height: 134rem !important;
+    height: 181rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--nogifts {
-    height: 240rem !important;
+    height: 318rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--jolt {
-    height: 150rem !important;
+    height: 157rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--trabbup2p {
-    height: 115rem !important;
+    height: 255rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots.project__screenshots--mancrates {
-    height: 115rem !important;
+    height: 268rem !important;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshots__whiteblock {
     background-color: #fbfbfb;
@@ -1794,18 +1807,34 @@ h2 {
     width: 100%;
     position: absolute;
   }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot button {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot button:hover {
+    background-color: #148df3;
+  }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
     margin: 0 auto;
     display: block;
     width: 100%;
     cursor: pointer;
-    -moz-transition-duration: 0.25s;
-    -webkit-transition-duration: 0.25s;
-    -o-transition-duration: 0.25s;
-    transition-duration: 0.25s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    position: relative;
+    top: 0;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot img:hover {
-    border-color: #000;
+    border-color: #ccc;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    top: -0.4rem;
   }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot p {
     width: 100%;
@@ -1985,6 +2014,9 @@ h2 {
     display: inline;
     padding-right: 2.4rem;
   }
+  .footer ul li a {
+    border-bottom: none;
+  }
   .footer ul li:last-child {
     padding-right: 0;
   }
@@ -2147,8 +2179,13 @@ h2 {
     padding: 0 2rem 0 2rem;
     background-color: transparent;
   }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot a {
+    border-bottom: none;
+  }
+  .project .project__wrapper .project__contents .project__screenshots .project__screenshot button {
+    width: 100%;
+  }
   .project .project__wrapper .project__contents .project__screenshots .project__screenshot img {
-    border: none !important;
     width: 100%;
     height: auto;
   }
@@ -2325,6 +2362,9 @@ h2 {
   }
   .footer ul li:last-child {
     margin-bottom: 0;
+  }
+  .footer ul li a {
+    border-bottom: none;
   }
   .menu {
     padding: 2rem;

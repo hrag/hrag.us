@@ -114,7 +114,7 @@
 					padding-top: 3.5em;
 					padding-bottom: 4rem;
 					text-align: center;
-					font-size: 2.5rem;
+					font-size: 2.3rem;
 					letter-spacing: 1.18rem;
 					color: @projectgrey;
 					.opensans-semibold;
@@ -151,31 +151,31 @@
 						width: auto;
 					}
 					&.project__screenshots--wifast {
-						height: 483rem !important;
+						height: 263rem !important;
 					}
 					&.project__screenshots--birdfleet {
 						height: 210rem !important;
 					}
 					&.project__screenshots--heavybig {
-						height: 175rem !important;
+						height: 325rem !important;
 					}
 					&.project__screenshots--climates {
-						height: 203rem !important;
+						height: 106rem !important;
 					}
 					&.project__screenshots--trabbutravel {
-						height: 134rem !important;
+						height: 181rem !important;
 					}
 					&.project__screenshots--nogifts {
-						height: 240rem !important;
+						height: 318rem !important;
 					}
 					&.project__screenshots--jolt {
-						height: 150rem !important;
+						height: 157rem !important;
 					}
 					&.project__screenshots--trabbup2p {
-						height: 115rem !important;
+						height: 255rem !important;
 					}
 					&.project__screenshots--mancrates {
-						height: 115rem !important;
+						height: 268rem !important;
 					}
 					.project__screenshots__whiteblock {
 						background-color: @commonwhite;
@@ -189,16 +189,25 @@
 						z-index: 2;
 						width: 100%;
 						position: absolute;
+						button {
+							.transition-duration(@tdProj);
+							&:hover {
+								background-color: #0079df + 20;
+							}
+						}
 						img {
-							// width: 35rem;
 							width: 100%;
 							margin: 0 auto;
 							display: block;
 							width: 100%;
 							cursor: pointer;
-							.transition-duration(.25s);
+							.transition-duration(@tdProj);
+							position: relative;
+							top: 0;
 							&:hover {
-								border-color: #000;
+								border-color: #ccc;
+								.transition-duration(@tdProj);
+								top: -.4rem;
 							}
 						}
 						p {
@@ -367,6 +376,9 @@
 		}
 		ul {
 			li {
+				a {
+					border-bottom: none;
+				}
 				display: inline;
 				padding-right: 2.4rem;
 				&:last-child {

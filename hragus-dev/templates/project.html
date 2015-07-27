@@ -15,9 +15,10 @@
 			<div class="project__screenshot {{format}}" style="{{tweak}}">
 				{{#src}}
 					<figure>
-						<img src="{{.}}" />
+						<a href="{{src_lg}}" class="project__screenshot__link"><img src="{{.}}" style="{{imgtweak}}"/></a>
 						{{#figureno}}<figcaption><span>Figure {{.}}:</span> {{caption}}</figcaption>{{/figureno}}
-					</figure>{{/src}}
+					</figure>
+				{{/src}}
 				{{#headline}}<h4>{{.}}</h4>{{/headline}}
 				{{#text}}<p>{{.}}</p>{{/text}}
 				<ul>{{#list}}<li>{{.}}</li>{{/list}}</ul>

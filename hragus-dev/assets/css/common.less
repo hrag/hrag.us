@@ -83,7 +83,18 @@ h2 {
 	}
 }
 
-
+.screenshot {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: @commonwhite;
+	min-height: 100%;
+	width: 100%;
+	z-index: 111;
+	cursor: url('/public/img/close_cursor.ico'), default;
+	overflow-x: auto !important;
+}
 
 
 .list {
@@ -223,10 +234,11 @@ h2 {
 					a.project-url {
 						text-decoration: none;
 						border: none !important;
+						outline: none;
 					}
 					img {
 						.border-box;
-						border: solid 1px #8b8b8b;
+						border: solid 1px #eaeaea;
 					}
 					button {
 						.rounded(5px);

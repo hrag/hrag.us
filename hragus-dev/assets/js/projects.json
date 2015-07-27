@@ -12,6 +12,7 @@
     		"tweak": "top: 0rem;"
     	},{
             "src": "/public/img/screenshots/wifast/01.jpg",
+            "src_lg": "/public/img/screenshots/wifast/01_lg.jpg",
             "figureno": "A",
             "caption": "The mobile user experinece for connecting to a WiFast hotspot.",
             "format": "project__screenshot--full",
@@ -36,12 +37,14 @@
     		"tweak": "top: 138rem;"
     	},{
             "src": "/public/img/screenshots/wifast/02.jpg",
+            "src_lg": "/public/img/screenshots/wifast/02_lg.jpg",
             "figureno": "B",
             "caption": "An early stage sketch.",
             "format": "project__screenshot--half project__screenshot--right",
             "tweak": "top: 76rem;"
         },{
             "src": "/public/img/screenshots/wifast/03.jpg",
+            "src_lg": "/public/img/screenshots/wifast/03_lg.jpg",
             "figureno": "C",
             "caption": "Another early stage sketch.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -52,6 +55,7 @@
     		"tweak": "top: 150rem;"
     	},{
             "src": "/public/img/screenshots/wifast/04.jpg",
+            "src_lg": "/public/img/screenshots/wifast/04_lg.jpg",
             "figureno": "D",
             "caption": "Mockup of a timeline-based campain page.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -96,12 +100,14 @@
     		"tweak": "top: 18rem;"
     	},{
             "src": "/public/img/screenshots/birdfleet/01.jpg",
+            "src_lg": "/public/img/screenshots/birdfleet/01_lg.jpg",
             "figureno": "A",
             "caption": "Send message view.",
             "format": "project__screenshot--half project__screenshot--right",
             "tweak": "top: 9rem;"
         },{
             "src": "/public/img/screenshots/birdfleet/03.jpg",
+            "src_lg": "/public/img/screenshots/birdfleet/03_lg.jpg",
             "figureno": "B",
             "caption": "Manage numbers view showing different states.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -112,6 +118,7 @@
     		"tweak": "top: 62rem;"
     	},{
             "src": "/public/img/screenshots/birdfleet/02.jpg",
+            "src_lg": "/public/img/screenshots/birdfleet/02_lg.jpg",
             "figureno": "C",
             "caption": "Signup view.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -122,6 +129,7 @@
     		"tweak": "top: 117rem;"
     	},{
             "src": "/public/img/screenshots/birdfleet/04.jpg",
+            "src_lg": "/public/img/screenshots/birdfleet/04_lg.jpg",
             "format": "project__screenshot--half project__screenshot--left",
             "tweak": "top: 133rem;"
         },{
@@ -145,37 +153,45 @@
     	},{
     		"text": "I’ve always been building things. Be it out of wood, metal, wires, plastic, magnets etc - I’ve had at least an encounter with it at some point. At one point, I came up with a few lamp designs in addition to an epic arcade machine design. All which I built just because. I quickly noticed how everyone who saw these items expressed their appreciation, and often times wondered if they could have one of their own. ",
     		"format": "project__screenshot--center project__screenshot--full",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 18rem;"
     	},{
             "src": "/public/img/screenshots/heavybig/01.jpg",
+            "src_lg": "/public/img/screenshots/heavybig/01_lg.jpg",
             "figureno": "A",
             "caption": "Landing page for Heavybig, the homepage for selling my own goods.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 38rem;",
+            "imgtweak": "border: 0;"
         },{
     		"text": "This started this iteration of \"Heavybig: a design and goods company\" where I’m responsible for all aspects of design, sourcing and execution. I wound up selling 44 Jar Lamps, 4 Cantilever Lamps, and 1 Arcade machine with little marketing effort - mostly word of mouth.",
     		"format": "project__screenshot--center project__screenshot--full",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 87rem;"
     	},{
             "src": "/public/img/screenshots/heavybig/02.jpg",
+            "src_lg": "/public/img/screenshots/heavybig/02_lg.jpg",
             "figureno": "B",
             "caption": "The \"About\" view on Heavybig. Me holding a few lamp bases.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 109rem;"
         },{
     		"headline": "physical usability",
             "format": "project__screenshot--half project__screenshot--right",
-    		"tweak": "top: 0rem;"
+    		"tweak": "top: 97rem;"
+    	},{
+    		"text": "The Jar Lamp was the main product of Heavybig. It’s a pleasantly usable and well thought-out creation. The footprint is small (6” x 6”) and the height is low (9”). The only way to operate it is via the single binary switch. This satisfying (click!) switch has an intentionally dim-lit LED ring around it allowing the user to easily locate and operate the lamp in total darkness. The cover itself is a 24oz Mason jar, which unscrews allowing access to the light bulb - it’s also sand-blasted in order to soften the light. If you flip the lamp upside down, there is a single circular rubber stopper. This fits snug into the grooves and when pulled off reveals the 4 screws which hold the lamp together.",
+    		"format": "project__screenshot--right project__screenshot--half",
+    		"tweak": "top: 115rem;"
     	},{
             "src": "/public/img/screenshots/heavybig/03.jpg",
+            "src_lg": "/public/img/screenshots/heavybig/03_lg.jpg",
             "figureno": "C",
             "caption": "Sales page for the Jar Lamp.",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 184rem;"
         },{
     		"text": "The Jar Lamp went through 3 iterations before reaching it’s final state. The process of development and production went as follows:",
-    		"format": "project__screenshot--center project__screenshot--full",
-    		"tweak": "top: 138rem;"
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 183rem;"
     	},{
     		"olist": [
 				"design conceptualized on white-board (spitballing)",
@@ -192,7 +208,7 @@
 				"ready for shipment"
 			],
 			"format": "project__screenshot--left project__screenshot--half",
-			"tweak": "top: 118rem;"
+			"tweak": "top: 199rem;"
 		}
 
 
@@ -211,20 +227,22 @@
     		"tweak": "top: 0rem;"
     	},{
             "src": "/public/img/screenshots/climates/01.jpg",
+            "src_lg": "/public/img/screenshots/climates/01_lg.jpg",
             "figureno": "A",
             "caption": "Quick ways to use the web app.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 64rem;"
         },{
     		"text": "This was a fun project I did in one day. At a time where everybody was coming out with a nice & sleek weather app, I became inspired. I realized that I usually only care about the temperature and if it was sunny or rainy, so I designed for that. The app would remember and show your recent history and default to the last one. Later on, the user could decide what information appears. It sure beats apps which surface every bit of information available. If you ask me, it's excessive.",
     		"format": "project__screenshot--half project__screenshot--left",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 14rem;"
     	},{
             "src": "/public/img/screenshots/climates/02.jpg",
+            "src_lg": "/public/img/screenshots/climates/02_lg.jpg",
             "figureno": "B",
             "caption": "Possible combinations of weather and their appearance.",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 9rem;"
         }
     ]
 },{
@@ -242,33 +260,37 @@
     	},{
     		"text": "I built this in 2011 as a crowdfunding platform to help people raise money from friends & family for travel. These types of donors tend to simply contribute to someone closer to them, just knowing it would benefit them - asking for nothing in return. I helped 6 of my friends raise funds to either fully or partially cover the cost of travel. I was helping people and it felt really good.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 18rem;"
     	},{
             "src": "/public/img/screenshots/trabbutravel/01.png",
+            "src_lg": "/public/img/screenshots/trabbutravel/01_lg.jpg",
             "figureno": "A",
             "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 39rem;",
+            "imgtweak": "border: 0;"
         },{
             "src": "/public/img/screenshots/trabbutravel/02.jpg",
+            "src_lg": "/public/img/screenshots/trabbutravel/02_lg.jpg",
             "figureno": "B",
             "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 90rem;"
         },{
             "src": "/public/img/screenshots/trabbutravel/03.jpg",
+            "src_lg": "/public/img/screenshots/trabbutravel/03_lg.jpg",
             "figureno": "C",
             "caption": "The dashboard for managing the campaign.",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 90rem;"
         },{
     		"headline": "efforts",
             "format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 0rem;"
+    		"tweak": "top: 123rem;"
     	},{
     		"text": "I came up with the entire concept, experience, and design myself. I cross-checked it using the wisdom of my friends who were also in the design field. I also coded the designs to bring them to life. Additionally, I designed and built the entire backend architecture on a LAMP stack (Codeigniter framework). Today, I would use Python or Node.js to accomplish the same.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 137rem;"
     	}
     ]
 },{
@@ -285,66 +307,75 @@
     		"tweak": "top: 0rem;"
     	},{
             "src": "/public/img/screenshots/nogifts/01.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/01_lg.jpg",
             "figureno": "A",
             "caption": "Books on books on books.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 16rem;"
         },{
     		"text": "I realize that I design a lot for screens and digital, but have always been intrigued by designing for print. Over the years I’ve designed posters, flyers, stickers and such so I knew the basics of print and how to ensure quality. One birthday, I had a party and invited a heap of friends. I thought it would be cool to have them all write some things in a book that I wouldn’t read for 10 years. It was a hit, so I decided to turn this into a project. No gifts, just presence was born.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 76rem;"
     	},{
             "src": "/public/img/screenshots/nogifts/02.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/02_lg.jpg",
             "figureno": "B",
             "caption": "Typeface and branding layout example.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 100rem;"
         },{
             "src": "/public/img/screenshots/nogifts/03.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/03_lg.jpg",
             "figureno": "C",
             "caption": "A page from the front matter.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 123.4rem;"
         },{
             "src": "/public/img/screenshots/nogifts/04.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/04_lg.jpg",
             "figureno": "D",
             "caption": "A page describing the different types of pages found in the book.",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 100rem;"
         },{
     		"text": "My take on the design for this book was to keep it really simple, elegant and fun. It was my first time using Indesign for a project, but with a little guidance from a good friend and loads of discipline, I picked it up. I enjoyed using it and look forward to having a need to use it again soon.",
-    		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 163rem;"
     	},{
             "src": "/public/img/screenshots/nogifts/05.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/05_lg.jpg",
             "figureno": "E",
             "caption": "Never...",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 174rem;"
         },{
             "src": "/public/img/screenshots/nogifts/06.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/06_lg.jpg",
             "figureno": "F",
             "caption": "Gonna...",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 193rem;"
         },{
             "src": "/public/img/screenshots/nogifts/07.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/07_lg.jpg",
             "figureno": "G",
             "caption": "Give...",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 214rem;"
         },{
             "src": "/public/img/screenshots/nogifts/08.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/08_lg.jpg",
             "figureno": "H",
             "caption": "You...",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 233rem;"
         },{
             "src": "/public/img/screenshots/nogifts/09.jpg",
+            "src_lg": "/public/img/screenshots/nogifts/09_lg.jpg",
             "figureno": "I",
             "caption": "Up.",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 254rem;"
         }
 
     ]
@@ -357,17 +388,19 @@
     "projectTitleImage": "/public/img/titleimages/jolt.png",
     "projectContents": [
         {
-    		"headline": "branding exercise",
+    		"headline": "a branding exercise",
             "format": "project__screenshot--full project__screenshot--center",
     		"tweak": "top: 0rem;"
     	},{
     		"text": "This was a fun project I did in one day. At a time where everybody was coming out with a nice & sleek weather app, I became inspired. I realized that I usually only care about the temperature and rain, so I designed for that. The app would remember and show your recent history and default to the last one. Later on, the user could decide what information appears. It sure beats apps which surface every bit of information available. If you ask me, it's excessive.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 18rem;"
     	},{
             "src": "/public/img/screenshots/jolt/01.png",
-            "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "src_lg": "/public/img/screenshots/jolt/01_lg.jpg",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 40rem;",
+            "imgtweak": "border: 0;"
         }
     ]
 },{
@@ -384,36 +417,45 @@
     		"tweak": "top: 0rem;"
     	},{
             "src": "/public/img/screenshots/trabbup2p/01.png",
+            "src_lg": "/public/img/screenshots/trabbup2p/01_lg.jpg",
             "figureno": "A",
             "caption": "Homepage concept.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
         },{
     		"text": "I overheard a friend talking about how his dad has a Bobcat excavator that he occasionally uses for construction jobs, but today, for the most part, collects dust. A few days later, it dawned on me. I wondered why don’t more people rent equipment and tools from one another? On many occasions I was able to borrow tools from friends or family when I needed - but sometimes nobody had what I needed so I’d reluctantly spend good money on something I might not use too often. I would, however be totally fine with renting from a stranger.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 69rem;"
     	},{
             "src": "/public/img/screenshots/trabbup2p/02.jpg",
+            "src_lg": "/public/img/screenshots/trabbup2p/02_lg.jpg",
             "figureno": "B",
             "caption": "Basic customer approach flowchart.",
-            "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "format": "project__screenshot--right project__screenshot--half",
+            "tweak": "top: 101rem;"
         },{
             "src": "/public/img/screenshots/trabbup2p/03.jpg",
+            "src_lg": "/public/img/screenshots/trabbup2p/03_lg.jpg",
             "figureno": "C",
             "caption": "Item page concept",
-            "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 156rem;"
         },{
             "src": "/public/img/screenshots/trabbup2p/04.jpg",
+            "src_lg": "/public/img/screenshots/trabbup2p/04_lg.jpg",
             "figureno": "D",
             "caption": "Followers/Following page concept",
-            "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 189rem;"
         },{
+    		"headline": "the light of day",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 90rem;"
+    	},{
     		"text": "Sadly, this solo side project of mine was never released. During my efforts of conceptualizing, wireframing, and designing - I ran into a hurdle that would stop me in my tracks: insurance. While working on the product, I decided to survey the public (using Google as the means of outreach through ads) to ensure that I was on the right track - One of my questions was “What might prevent you from using a service like this?” and an unignorable ratio of survey participants responded with concerns about their belongings breaking or not being returned. This lead me into exploring ways to protect the users, and the company. At the time, there was no such insurance flexible enough to insure items in the manner that I needed. I spent some time trying to solve this, but eventually became overwhelmed with my actual job and have since shelved the project.",
-    		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 106rem;"
     	}
     ]
 },{
@@ -430,42 +472,52 @@
     		"tweak": "top: 0rem;"
     	},{
             "src": "/public/img/screenshots/mancrates/01.png",
+            "src_lg": "/public/img/screenshots/mancrates/01_lg.jpg",
             "figureno": "A",
             "caption": "Mid-resolution wireframes for the homepage.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
         },{
     		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 70rem;"
     	},{
     		"headline": "transitioning",
             "format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 0rem;"
+    		"tweak": "top: 80rem;"
     	},{
             "src": "/public/img/screenshots/mancrates/02.png",
+            "src_lg": "/public/img/screenshots/mancrates/02_lg.jpg",
             "figureno": "B",
             "caption": "Product cards in the wild",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 96rem;",
+    		"imgtweak": "border: 0;"
         },{
     		"text": "The company relies heavily on ad traffic to generate revenue, and we’re in the process of transitioning and taking a stronger crack at SEO in order to reduce acquisition costs. This means fundamental content changes across the whole site. We started with experimentation on adding abundant unique content on the catalog page. I came up with a design and experience using “product cards” which would fulfill the SEO requirements while simultaneously providing a rich user experience.",
     		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 149rem;"
     	},{
-            "src": "/public/img/screenshots/mancrates/03.jpg",
+            "src": "/public/img/screenshots/mancrates/03.png",
+            "src_lg": "/public/img/screenshots/mancrates/03_lg.jpg",
             "figureno": "C",
             "caption": "Initial sketches for figures A and B",
             "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 286rem;"
+            "tweak": "top: 180rem;",
+    		"imgtweak": "border: 0;"
         },{
     		"headline": "more transitioning",
             "format": "project__screenshot--half project__screenshot--right",
-    		"tweak": "top: 0rem;"
+    		"tweak": "top: 168.5rem;"
     	},{
-    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-res wireframes convey that.",
+    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-resolution wireframes convey that.",
     		"format": "project__screenshot--half project__screenshot--right",
-    		"tweak": "top: 138rem;"
+    		"tweak": "top: 185rem;"
+    	},{
+    		"link": "http://www.mancrates.com",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 233rem;"
     	}
     ]
 }]
