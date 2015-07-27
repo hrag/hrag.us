@@ -14,6 +14,7 @@ define([
 		var projectWrapper = $('.project__wrapper');
 		var headerTopWrapper = $('.header__top-wrapper');
 		var listWrapper = $('.list__wrapper');
+		var footerWrapper = $('.footer__wrapper');
 
 		var before = new Before('firstlook');
 
@@ -41,14 +42,12 @@ define([
 						}, 667);
 					}
 				});
-				$('.header__navigation__about').tap(function() {
-					window.location.hash = 'about';
-				});
-				$('.header__navigation__resume').tap(function() {
-					window.location = '/public/resume/HragChanchanian-Resume.pdf';
-				})
+				// $('.header__navigation__about').tap(function() {
+				// 	window.location.hash = 'about';
+				// });
 
 			});
+
 		}
 		if (listWrapper.html().length < 1) {
 			$.get('/templates/homelist.html', function(template) {
@@ -60,14 +59,14 @@ define([
 			    $('.list').css({'top': chromeHeight+'px'});
 			    $(window).resize(function() {
 					chromeHeight = $('.header').height();
-			    	console.log('resized');
 			    	$('.list').css({'top': chromeHeight+'px'});
 			    });
 			    var homeListBinder = new Binder();
 			});
 		}
-			
-	
+
+
+
 	};
 });
 

@@ -19,7 +19,7 @@ define([
 		var galleryPath = '/public/img/gallery/';
 		var navcloseback = $('.nav-closeback');
 		var navmenu = $('.nav-menu');
-		var pics = 28 // # pics +1
+		var pics = 37 // # pics +1
 		var escKey = 27;
 
 		var before = new Before('about');
@@ -72,14 +72,14 @@ define([
 				picToLoad = parseInt(picToLoad);
 				var oneLeft = picToLoad - 1;
 					oneLeft = formatPicNum(oneLeft);
-				var oneRight = picToLoad + 1 
+				var oneRight = picToLoad + 1
 					oneRight = formatPicNum(oneRight);
 
 				if (picToLoad == 1) {
 					oneLeft = formatPicNum(pics-1)
 				} else if (picToLoad == (pics-1)) {
 					oneRight = formatPicNum(01);
-				} 
+				}
 				var leftlarge = (galleryPath+'lg'+oneLeft+'.jpg').toString();
 				var rightlarge = (galleryPath+'lg'+oneRight+'.jpg').toString();
 				var leftsmall = (galleryPath+'sm'+oneLeft+'.jpg').toString();
@@ -146,7 +146,7 @@ define([
 				picLoader(forwardOne);
 				e.preventDefault();
 			})
-			
+
 		}
 
 		function aboutSwitcher(section) {
@@ -165,7 +165,7 @@ define([
 		}
 
 		$.get('/templates/about.html', function(template) {
-			
+
 			var theAbout = Mustache.render(template, galleryObj());
 			aboutWrapper.append(theAbout);
 
@@ -196,8 +196,8 @@ define([
 		}).done(function() {
 		    //
 		});
-		
-		
+
+
 
 		if (aboutFooter.length < 1) {
 			$.get('/templates/footer.html', function(template) {
@@ -206,6 +206,6 @@ define([
 				$('.footer').addClass('footerStretch');
 			});
 		}
-			
+
 	};
 });
