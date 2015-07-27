@@ -529,7 +529,8 @@
     	},{
     		"link": "http://www.mancrates.com",
     		"format": "project__screenshot--left project__screenshot--half",
-    		"tweak": "top: 233rem;"
+    		"tweak": "top: 233rem;",
+    		"extra": " rel=noreferrer "
     	}
     ]
 }]

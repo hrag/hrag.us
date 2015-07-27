@@ -23,7 +23,7 @@
 				{{#text}}<p>{{.}}</p>{{/text}}
 				<ul>{{#list}}<li>{{.}}</li>{{/list}}</ul>
 				<ol>{{#olist}}<li>{{.}}</li>{{/olist}}</ol>
-				{{#link}}<a class="project-url" href="{{.}}" title="go to {{name}}"><button>Go to {{name}}</button></a>{{/link}}
+				{{#link}}<a class="project-url" href="{{.}}" title="go to {{name}}" {{extra}}><button>Go to {{name}}</button></a>{{/link}}
 			</div>
 			{{/projectContents}}
 		</div>
