@@ -5,7 +5,7 @@ Portfolio: www.hrag.us
 LinkedIn: linkd.in/hragg
 Email: hragatron@gmail.com
 Phone: (408) 202-8835
-Address: 16397 E. La Chiquita Ave. Unit B. Los Gatos, CA 95032
+Location: Los Gatos, CA
 
 
 == ROLE ==
