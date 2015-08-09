@@ -6,9 +6,13 @@ define([
 	'mustache',
 	'helpers/homelistbinder',
 	'helpers/insignia',
-	'helpers/before'
-], function($, probject, Mustache, Binder, Insignia, Before) {
+	'helpers/before',
+	'libs/skrollr'
+], function($, probject, Mustache, Binder, Insignia, Before, Skrollr) {
+
 	return function(){
+
+
 		var chromeHeight;
 		var project = $('.project');
 		var projectWrapper = $('.project__wrapper');
@@ -27,6 +31,8 @@ define([
 				var header = Mustache.render(template, {});
 				headerTopWrapper.html('');
 				headerTopWrapper.append(header);
+
+				var s = Skrollr.init();
 
 				var insigniaArr = new Insignia();
 				$('.header__navigation__projects').tap(function() {
@@ -64,9 +70,6 @@ define([
 			    var homeListBinder = new Binder();
 			});
 		}
-
-
-
 	};
 });
 

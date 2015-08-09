@@ -7,8 +7,8 @@
 		<h3>{{skills}}</h3>
 	</div>
 </div>
-<div class="project__contents parralax__group">
-	<div class="project__background parallax__layer--back" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div>
+<div class="project__contents"> <!-- * -->
+	<div class="project__background" style="background-image: url({{projectImage}}); {{projectImageTweak}}" data-start="transform:translateY(0px);" data-top-bottom="transform:translateY(230%);"></div> <!-- * -->
 	<div class="project__screenshots project__screenshots--{{id}}" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;">
 		<div class="project__screenshots__constrictor">
 			{{#projectContents}}

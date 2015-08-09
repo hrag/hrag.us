@@ -13,7 +13,8 @@ define([], function() {
 			lrouter: 'libs/lrouter',
 			lroutercontroller: 'libs/lroutecontroller',
 			menu: 'helpers/menu',
-			preload: 'helpers/preload'
+			preload: 'helpers/preload',
+			skrollr: 'libs/skrollr'
 		}
 	});
 	require([
@@ -21,18 +22,21 @@ define([], function() {
 		'lrouter',
 		'lroutercontroller',
 		'menu',
+		'skrollr',
 		'preload'
 		],
-		function($, Router, Controller, Menu) {
+		function($, Router, Controller, Menu, Skrollr) {
+
+		var s = Skrollr.init();
 
 		$('.nav-closeback').click(function() {
 			window.history.back();
-		})
+		});
 
 		$(['/public/img/menu-centerpiece-250x250.jpg']).preload();
 
 		$('.nav-menu').click(function() {
-			new Menu();
+			// new Menu();
 		});
 
 		var home_controller = new Controller("home", {
@@ -73,8 +77,3 @@ define([], function() {
 		router.init();
 	});
 });
-
-
-
-
-

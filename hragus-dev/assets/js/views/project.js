@@ -6,9 +6,10 @@ define([
 	'json!projects.json',
 	'mustache',
 	'helpers/before',
+	'libs/skrollr',
 	'jquerymob',
 	'preload'
-], function($, probject, Mustache, Before) {
+], function($, probject, Mustache, Before, Skrollr) {
 	return function(){
 
 		var projectWrapper = $('.project__wrapper');
@@ -64,6 +65,7 @@ define([
 			// });
 
 			projectWrapper.append(theProject);
+			var s = Skrollr.init();
 
 
 			var screenshotLink = $('.project__screenshot__link');
