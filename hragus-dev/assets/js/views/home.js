@@ -7,8 +7,7 @@ define([
 	'helpers/homelistbinder',
 	'helpers/insignia',
 	'helpers/before',
-	'libs/skrollr'
-], function($, probject, Mustache, Binder, Insignia, Before, Skrollr) {
+], function($, probject, Mustache, Binder, Insignia, Before) {
 
 	return function(){
 
@@ -31,8 +30,6 @@ define([
 				var header = Mustache.render(template, {});
 				headerTopWrapper.html('');
 				headerTopWrapper.append(header);
-
-				var s = Skrollr.init();
 
 				var insigniaArr = new Insignia();
 				$('.header__navigation__projects').tap(function() {

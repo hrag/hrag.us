@@ -71,7 +71,7 @@ h2 {
 }
 
 .screenshot {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	text-align: center;
@@ -80,7 +80,10 @@ h2 {
 	width: 100%;
 	z-index: 1111;
 	overflow-x: auto !important;
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll;
 }
+
 
 
 .list {
