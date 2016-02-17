@@ -1,0 +1,36 @@
+<!-- templates/project.html -->
+
+<div class="project__title">
+	<div class="project__title__cluster">
+		<img src="{{projectTitleImage}}" />
+		<hr>
+		<h3>{{skills}}</h3>
+	</div>
+</div>
+<div class="project__contents"> <!-- * -->
+	<div class="project__background" style="background-image: url({{projectImage}}); {{projectImageTweak}}"></div> <!-- * -->
+	<div class="project__screenshots project__screenshots--{{id}}" style="top: {{top}}; height: {{height}}; background-color: {{bg}} !important;">
+		<div class="project__screenshots__constrictor">
+			{{#projectContents}}
+			<div class="project__screenshot {{format}}" style="{{tweak}}">
+				{{#src}}
+					<figure>
+						<a href="{{src_lg}}" class="project__screenshot__link"><img src="{{.}}" style="{{imgtweak}}"/></a>
+						{{#figureno}}<figcaption><span>Figure {{.}}:</span> {{caption}}</figcaption>{{/figureno}}
+					</figure>
+				{{/src}}
+				{{#headline}}<h4>{{.}}</h4>{{/headline}}
+				{{#text}}<p>{{.}}</p>{{/text}}
+				<ul>{{#list}}<li>{{.}}</li>{{/list}}</ul>
+				<ol>{{#olist}}<li>{{.}}</li>{{/olist}}</ol>
+				{{#link}}<a class="project-url" href="{{.}}" title="go to {{name}}" {{extra}}><button>Go to {{name}}</button></a>{{/link}}
+			</div>
+			{{/projectContents}}
+		</div>
+	</div>
+	<div class="project__footer">
+		<span class="project__next">Next</span>
+		<h5>{{nextName}}</h5>
+		<button class="project__footer__next-button">Go</button>
+	</div>
+</div>

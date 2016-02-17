@@ -1,0 +1,1 @@
+define(["jquery","json!projects.json","jquerymob"],function(o,n){var t=function(){n.forEach(function(n){var t=n.id;o("#"+t).tap(function(){console.log("tapped #"+t),window.location.hash="project/"+t})})};return t});

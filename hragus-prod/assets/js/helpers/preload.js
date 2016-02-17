@@ -1,1 +1,0 @@
-define(["jquery"],function(e){e.fn.preload=function(t){e.each(this,function(t){var n=this.toString();e.get(n,function(){e("<img/>")[0].src=n})}),typeof t=="function"&&t.call(this)}});

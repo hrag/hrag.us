@@ -1,0 +1,1 @@
+define(["mustache","helpers/insignia"],function(e,n){var a=$(".loading");$.get("/templates/loading.html",function(i){var t=e.render(i,{});a.append(t);new n})});

@@ -1,4 +1,8 @@
+node_modules/
 .DS_Store
-hrag.us.sublime-project
-hrag.us.sublime-workspace
-progress.txt
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,52 @@
+{
+  "title": "hrag.us",
+  "name": "hrag.us",
+  "version": "1.0.0",
+  "description": "Portfolio for Hrag Chanchanian",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "homepage": "https://github.com/hrag/hrag.us",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrag/hrag.us"
+  },
+  "bugs": {
+    "url": "https://github.com/hrag/hrag.us/issues"
+  },
+  "author": {
+    "name": "Hrag Chanchanian",
+    "email": "hragatron@gmail.com",
+    "url": "http://hrag.us"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/hrag/hrag.us/blob/master/LICENSE"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-clean": "^0.3.1",
+    "beepbeep": "^1.1.0",
+    "gulp-preprocess": "^2.0.0"
+  },
+  "private": true,
+  "keywords":
+  [
+  	"notifications",
+  	"global",
+    "SCSS",
+    "Sass",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "jQuery",
+    "Gulp"
+  ]
+}

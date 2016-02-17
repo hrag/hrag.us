@@ -1,0 +1,1 @@
+define(["jquery"],function(i){return bindInsignias=function(){var n=i(".loading #insignia__top-square"),a=i(".loading #insignia__bottom-square"),g=i(".loading #insignia__left-triangle"),r=i(".loading #insignia__right-triangle"),t=[n,a,g,r];return t}});

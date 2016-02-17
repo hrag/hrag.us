@@ -1,0 +1,52 @@
+// insignia.less
+
+@import "libs/micsins";
+@import "fonts";
+@import "vars";
+
+.insignia {
+	fill: $commonwhite;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+	svg {
+		overflow: visible;
+	}
+	.insignia__piece {
+		// @include transition($tdInsingnia-in, $cbInsignia-in);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		&.out-of-view {
+			@include opacity(0);
+			// @include transition($tdInsingnia-out, $cbInsignia-out);
+		}
+	}
+	.insignia__piece__top-square {
+		.insignia__piece--top-square {
+			width: 28.6rem !important;
+		}
+		&.out-of-view {
+			@include transform(translateY(-$distanceInsignia));
+		}
+	}
+	.insignia__piece__bottom-square {
+		.insignia__piece--bottom-square {
+			width: 28.6rem !important;
+		}
+		&.out-of-view {
+			@include transform(translateY($distanceInsignia));
+		}
+	}
+	.insignia__piece__left-triangle {
+		&.out-of-view {
+			@include transform(translateX(-$distanceInsignia));
+		}
+	}
+	.insignia__piece__right-triangle {
+		&.out-of-view {
+			@include transform(translateX($distanceInsignia));
+		}
+	}
+}

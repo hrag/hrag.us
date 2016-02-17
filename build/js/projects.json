@@ -1,0 +1,536 @@
+[{
+    "name": "WiFast",
+    "id": "wifast",
+    "skills": "UX, UI, Identity, Front-end",
+    "projectImage": "/img/projectbgs/wifast-2000x1111.jpg",
+    "projectImageTweak": "background-position: left center;",
+    "projectTitleImage": "/img/titleimages/wifast.png",
+    "projectContents": [
+    	{
+    		"headline": "concept to product",
+    		"format": "project__screenshot--full",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/wifast/01.jpg",
+            "src_lg": "/img/screenshots/wifast/01_lg.jpg",
+            "figureno": "A",
+            "caption": "The mobile user experinece for connecting to a WiFast hotspot.",
+            "format": "project__screenshot--full",
+            "tweak": "top: 20rem;"
+        },{
+    		"text": "WiFast provided a means for businesses to grow their email marketing lists using WiFi. The company provided wireless routers with custom software pre-installed to businesses such as restaurants. The devices would provide online access for customers after entering their email address. I was the first employee, and also at the helm of all design for the company. Responsibilities included: ",
+    		"format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 75rem;"
+    	},{
+    		"list": [
+				"UX strategy",
+				"UI Design",
+				"wire framing",
+				"deliverables for all design elements",
+				"branding guidelines"
+			],
+			"format": "project__screenshot--left project__screenshot--half",
+			"tweak": "top: 118rem;"
+		},{
+    		"text": "Additionally, I wrote the front-end code for every project. It was an open book for design which I enjoyed - and also learned a lot.",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 138rem;"
+    	},{
+            "src": "/img/screenshots/wifast/02.jpg",
+            "src_lg": "/img/screenshots/wifast/02_lg.jpg",
+            "figureno": "B",
+            "caption": "An early stage sketch.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 76rem;"
+        },{
+            "src": "/img/screenshots/wifast/03.jpg",
+            "src_lg": "/img/screenshots/wifast/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Another early stage sketch.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 129rem;"
+        },{
+    		"headline": "the road to success",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 150rem;"
+    	},{
+            "src": "/img/screenshots/wifast/04.jpg",
+            "src_lg": "/img/screenshots/wifast/04_lg.jpg",
+            "figureno": "D",
+            "caption": "Mockup of a timeline-based campain page.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 180rem;"
+        },{
+    		"text": "The company pivoted through two other WiFi-based business models before finding success. It would include a mobile-friendly captive portal, rich & useful dashboards and a company homepage. When beginning projects at WiFast, I wanted to ensure a few things:",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 170rem;"
+    	},{
+    		"list": [
+				"A seamless and comprehensible experience",
+				"Swiftness",
+				"Pleasant aesthetics"
+			],
+			"format": "project__screenshot--left project__screenshot--half",
+			"tweak": "top: 198rem;"
+		},{
+    		"text": "The final product was no exception. Despite quick timelines, I was able to pull off some cool stuff which I’m still proud of today.",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 213rem;"
+    	},{
+    		"headline": "other efforts",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 231rem;"
+    	},{
+    		"text": "I was instrumental in the hiring of the rest of our engineering team. The engineering team grew over 200% over the course of a year and I feel like every hire was a home run. Every one those hires still work there today.",
+    		"format": "project__screenshot--center project__screenshot--full",
+    		"tweak": "top: 248rem;"
+    	},{
+    		"text": "Earlier, when the company outgrew our 2-bedroom apartment in Palo Alto, I took on the task of finding and setting up a new office. After some searching then negotiating, I secured a new space in a sweet location in Downtown Mountain View. It was walking distance from just about everything, including the CalTrain and great restaurants. I had a small budget to work with, but I was able to completely overhaul the new space. This included the demolition of all unnecessary walls, design & construction of the kitchen area, flooring and windows, in addition to the selection and purchasing of furniture. The result came to be a functional, open-space office with great lighting, accessibility, that catered towards creativity and productivity.",
+    		"format": "project__screenshot--center project__screenshot--full",
+    		"tweak": "top: 261rem;"
+    	},{
+    		"link": "http://www.zenreach.com",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 296rem;"
+    	}
+    ]
+},{
+    "name": "Trabbu For Travel",
+    "id": "trabbutravel",
+    "skills": "UI, UX, Identity, Front-end, Back-end",
+    "projectImage": "/img/projectbgs/trabbutravel-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/img/titleimages/trabbutravel.png",
+    "projectContents": [
+        {
+    		"headline": "nothing in return",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+    		"text": "I built this in 2011 as a crowdfunding platform to help people raise money from friends & family for travel. These types of donors tend to simply contribute to someone closer to them, just knowing it would benefit them - asking for nothing in return. I helped 6 of my friends raise funds to either fully or partially cover the cost of travel. I was helping people and it felt really good.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 18rem;"
+    	},{
+            "src": "/img/screenshots/trabbutravel/01.png",
+            "src_lg": "/img/screenshots/trabbutravel/01_lg.jpg",
+            "figureno": "A",
+            "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 39rem;",
+            "imgtweak": "border: 0;"
+        },{
+            "src": "/img/screenshots/trabbutravel/02.jpg",
+            "src_lg": "/img/screenshots/trabbutravel/02_lg.jpg",
+            "figureno": "B",
+            "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 90rem;"
+        },{
+            "src": "/img/screenshots/trabbutravel/03.jpg",
+            "src_lg": "/img/screenshots/trabbutravel/03_lg.jpg",
+            "figureno": "C",
+            "caption": "The dashboard for managing the campaign.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 90rem;"
+        },{
+    		"headline": "efforts",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 123rem;"
+    	},{
+    		"text": "I came up with the entire concept, experience, and design myself. I cross-checked it using the wisdom of my friends who were also in the design field. I also coded the designs to bring them to life. Additionally, I designed and built the entire backend architecture on a LAMP stack (Codeigniter framework). Today, I would use Python or Node.js to accomplish the same.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 137rem;"
+    	}
+    ]
+},{
+    "name": "Birdfleet",
+    "id": "birdfleet",
+    "skills": "UX, UI, Identity, Front-end",
+    "projectImage": "/img/projectbgs/birdfleet-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/img/titleimages/birdfleet.png",
+    "projectContents": [
+        {
+    		"headline": "simple & useful",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 0rem;"
+    	},{
+    		"text": "I embarked on this little project because I wanted to learn how to use Parse. While reading the docs, I became intrigued by the Twilio integration. The result was a web-based application that would invoke a one-way broadcast of SMS to a group of numbers. This is a useful tool for businesses and other organizations which enables the sharing of information to any mobile number in the world, instantly and with ease.",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 18rem;"
+    	},{
+            "src": "/img/screenshots/birdfleet/01.jpg",
+            "src_lg": "/img/screenshots/birdfleet/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Send message view.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 9rem;"
+        },{
+            "src": "/img/screenshots/birdfleet/03.jpg",
+            "src_lg": "/img/screenshots/birdfleet/03_lg.jpg",
+            "figureno": "B",
+            "caption": "Manage numbers view showing different states.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 58rem;"
+        },{
+    		"text": "For the design, I wanted this to be so simple that anybody could use it with zero hiccups. I went with a simple left side navigation. All a user had to do was enter a message, select recipients, and hit send. The user could also easily add & remove numbers and see a rich history of messages. The 2 birds insignia doubled as the activity indicator during messaging activity. This interaction was fun to create and build. The animations used pure CSS. When the callback from Twilio would come through, it would reset the animation back to normal with a result displayed. This was a fun project from a design standpoint, and it helped me learn Parse pretty well.",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 62rem;"
+    	},{
+            "src": "/img/screenshots/birdfleet/02.jpg",
+            "src_lg": "/img/screenshots/birdfleet/02_lg.jpg",
+            "figureno": "C",
+            "caption": "Signup view.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 103rem;"
+        },{
+    		"headline": "typography",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 117rem;"
+    	},{
+            "src": "/img/screenshots/birdfleet/04.jpg",
+            "src_lg": "/img/screenshots/birdfleet/04_lg.jpg",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 133rem;"
+        },{
+    		"text": "Akzidenz-Grotesk has a strong and bold look, especially in large size. I can really appreciate how clean it appears. It’s exactly what I was looking for when building Birdfleet: strong, bold and clean. Some trivia: Helvetica was derived from this font.",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 159rem;"
+    	}
+    ]
+},{
+    "name": "Trabbu P2P",
+    "id": "trabbup2p",
+    "skills": "Concept, UI, UX, Identity",
+    "projectImage": "/img/projectbgs/trabbup2p-2000x1111.jpg",
+    "projectImageTweak": "background-position: center top;",
+    "projectTitleImage": "/img/titleimages/trabbup2p.png",
+    "projectContents": [
+        {
+    		"headline": "peer to peer",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/trabbup2p/01.png",
+            "src_lg": "/img/screenshots/trabbup2p/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Homepage concept.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "I overheard a friend talking about how his dad has a Bobcat excavator that he occasionally uses for construction jobs, but today, for the most part, collects dust. A few days later, it dawned on me. I wondered why don’t more people rent equipment and tools from one another? On many occasions I was able to borrow tools from friends or family when I needed - but sometimes nobody had what I needed so I’d reluctantly spend good money on something I might not use too often. I would, however be totally fine with renting from a stranger.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 69rem;"
+    	},{
+            "src": "/img/screenshots/trabbup2p/02.jpg",
+            "src_lg": "/img/screenshots/trabbup2p/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Basic customer approach flowchart.",
+            "format": "project__screenshot--right project__screenshot--half",
+            "tweak": "top: 101rem;"
+        },{
+            "src": "/img/screenshots/trabbup2p/03.jpg",
+            "src_lg": "/img/screenshots/trabbup2p/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Item page concept",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 156rem;"
+        },{
+            "src": "/img/screenshots/trabbup2p/04.jpg",
+            "src_lg": "/img/screenshots/trabbup2p/04_lg.jpg",
+            "figureno": "D",
+            "caption": "Followers/Following page concept",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 189rem;"
+        },{
+    		"headline": "the light of day",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 90rem;"
+    	},{
+    		"text": "Sadly, this solo side project of mine was never released. During my efforts of conceptualizing, wireframing, and designing - I ran into a hurdle that would stop me in my tracks: insurance. While working on the product, I decided to survey the public (using Google as the means of outreach through ads) to ensure that I was on the right track - One of my questions was “What might prevent you from using a service like this?” and an unignorable ratio of survey participants responded with concerns about their belongings breaking or not being returned. This lead me into exploring ways to protect the users, and the company. At the time, there was no such insurance flexible enough to insure items in the manner that I needed. I spent some time trying to solve this, but eventually became overwhelmed with my actual job and have since shelved the project.",
+    		"format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 106rem;"
+    	}
+    ]
+},{
+    "name": "Heavybig",
+    "id": "heavybig",
+    "skills": "Designer, Builder, UX, UI, Front-end, Identity",
+    "projectTitleImage": "/img/titleimages/heavybig.png",
+    "projectImageTweak": "background-position: right;",
+    "projectImage": "/img/projectbgs/heavybig-2000x1111.jpg",
+    "projectContents": [
+    	{
+    		"headline": "tangible",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+    		"text": "I’ve always been building things. Be it out of wood, metal, wires, plastic, magnets etc - I’ve had at least an encounter with it at some point. At one point, I came up with a few lamp designs in addition to an epic arcade machine design. All which I built just because. I quickly noticed how everyone who saw these items expressed their appreciation, and often times wondered if they could have one of their own. ",
+    		"format": "project__screenshot--center project__screenshot--full",
+    		"tweak": "top: 18rem;"
+    	},{
+            "src": "/img/screenshots/heavybig/01.jpg",
+            "src_lg": "/img/screenshots/heavybig/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Landing page for Heavybig, the homepage for selling my own goods.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 38rem;",
+            "imgtweak": "border: 0;"
+        },{
+    		"text": "This started this iteration of \"Heavybig: a design and goods company\" where I’m responsible for all aspects of design, sourcing and execution. I wound up selling 44 Jar Lamps, 4 Cantilever Lamps, and 1 Arcade machine with little marketing effort - mostly word of mouth.",
+    		"format": "project__screenshot--center project__screenshot--full",
+    		"tweak": "top: 87rem;"
+    	},{
+            "src": "/img/screenshots/heavybig/02.jpg",
+            "src_lg": "/img/screenshots/heavybig/02_lg.jpg",
+            "figureno": "B",
+            "caption": "The \"About\" view on Heavybig. Me holding a few lamp bases.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 109rem;"
+        },{
+    		"headline": "physical usability",
+            "format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 97rem;"
+    	},{
+    		"text": "The Jar Lamp was the main product of Heavybig. It’s a pleasantly usable and well thought-out creation. The footprint is small (6” x 6”) and the height is low (9”). The only way to operate it is via the single binary switch. This satisfying (click!) switch has an intentionally dim-lit LED ring around it allowing the user to easily locate and operate the lamp in total darkness. The cover itself is a 24oz Mason jar, which unscrews allowing access to the light bulb - it’s also sand-blasted in order to soften the light. If you flip the lamp upside down, there is a single circular rubber stopper. This fits snug into the grooves and when pulled off reveals the 4 screws which hold the lamp together.",
+    		"format": "project__screenshot--right project__screenshot--half",
+    		"tweak": "top: 115rem;"
+    	},{
+            "src": "/img/screenshots/heavybig/03.jpg",
+            "src_lg": "/img/screenshots/heavybig/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Sales page for the Jar Lamp.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 184rem;"
+        },{
+    		"text": "The Jar Lamp went through 3 iterations before reaching it’s final state. The process of development and production went as follows:",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 183rem;"
+    	},{
+    		"olist": [
+				"design conceptualized on white-board (spitballing)",
+				"moved to paper sketches (still spitballing, but officially)",
+				"then to 2D vector (Illustrator)",
+				"generated the CAM files needed (Vcarve Pro)",
+				"fed gcode into the CNC router (ShopBot) which would shape it out of blocks of laminated wood which I had prepared in advance.",
+				"assemble and sand the base to get even sides",
+				"2 coats of stain to the base",
+				"steel wool brushing of base to give off more of a matte finish",
+				"batch sand-blasting of the jar lids",
+				"disassemble base, add and secure all componentsreassemble, install bulb & cover",
+				"testing: 48 hours of continuous use",
+				"ready for shipment"
+			],
+			"format": "project__screenshot--left project__screenshot--half",
+			"tweak": "top: 199rem;"
+		}
+
+
+    ]
+},{
+    "name": "No gifts, just presence",
+    "id": "nogifts",
+    "skills": "UX, UI, Identity, Front-end, Back-end",
+    "projectImage": "/img/projectbgs/nogifts-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/img/titleimages/nogifts.png",
+    "projectContents": [
+        {
+    		"headline": "the event time capsule",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/nogifts/01.jpg",
+            "src_lg": "/img/screenshots/nogifts/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Books on books on books.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 16rem;"
+        },{
+    		"text": "I realize that I design a lot for screens and digital, but have always been intrigued by designing for print. Over the years I’ve designed posters, flyers, stickers and such so I knew the basics of print and how to ensure quality. One birthday, I had a party and invited a heap of friends. I thought it would be cool to have them all write some things in a book that I wouldn’t read for 10 years. It was a hit, so I decided to turn this into a project. No gifts, just presence was born.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 76rem;"
+    	},{
+            "src": "/img/screenshots/nogifts/02.jpg",
+            "src_lg": "/img/screenshots/nogifts/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Typeface and branding layout example.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 100rem;"
+        },{
+            "src": "/img/screenshots/nogifts/03.jpg",
+            "src_lg": "/img/screenshots/nogifts/03_lg.jpg",
+            "figureno": "C",
+            "caption": "A page from the front matter.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 123.4rem;"
+        },{
+            "src": "/img/screenshots/nogifts/04.jpg",
+            "src_lg": "/img/screenshots/nogifts/04_lg.jpg",
+            "figureno": "D",
+            "caption": "A page describing the different types of pages found in the book.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 100rem;"
+        },{
+    		"text": "My take on the design for this book was to keep it really simple, elegant and fun. It was my first time using Indesign for a project, but with a little guidance from a good friend and loads of discipline, I picked it up. I enjoyed using it and look forward to having a need to use it again soon.",
+    		"format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 163rem;"
+    	},{
+            "src": "/img/screenshots/nogifts/05.jpg",
+            "src_lg": "/img/screenshots/nogifts/05_lg.jpg",
+            "figureno": "E",
+            "caption": "Never...",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 174rem;"
+        },{
+            "src": "/img/screenshots/nogifts/06.jpg",
+            "src_lg": "/img/screenshots/nogifts/06_lg.jpg",
+            "figureno": "F",
+            "caption": "Gonna...",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 193rem;"
+        },{
+            "src": "/img/screenshots/nogifts/07.jpg",
+            "src_lg": "/img/screenshots/nogifts/07_lg.jpg",
+            "figureno": "G",
+            "caption": "Give...",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 214rem;"
+        },{
+            "src": "/img/screenshots/nogifts/08.jpg",
+            "src_lg": "/img/screenshots/nogifts/08_lg.jpg",
+            "figureno": "H",
+            "caption": "You...",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 233rem;"
+        },{
+            "src": "/img/screenshots/nogifts/09.jpg",
+            "src_lg": "/img/screenshots/nogifts/09_lg.jpg",
+            "figureno": "I",
+            "caption": "Up.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 254rem;"
+        }
+
+    ]
+},{
+    "name": "Climates",
+    "id": "climates",
+    "skills": "UX, UI, Identity",
+    "projectImage": "/img/projectbgs/climates-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/img/titleimages/climates.png",
+    "projectContents": [
+        {
+    		"headline": "quick & simple",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/climates/01.jpg",
+            "src_lg": "/img/screenshots/climates/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Quick ways to use the web app.",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 64rem;"
+        },{
+    		"text": "This was a fun project I did in one day. At a time where everybody was coming out with a nice & sleek weather app, I became inspired. I realized that I usually only care about the temperature and if it was sunny or rainy, so I designed for that. The app would remember and show your recent history and default to the last one. Later on, the user could decide what information appears. It sure beats apps which surface every bit of information available. If you ask me, it's excessive.",
+    		"format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 14rem;"
+    	},{
+            "src": "/img/screenshots/climates/02.jpg",
+            "src_lg": "/img/screenshots/climates/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Possible combinations of weather and their appearance.",
+            "format": "project__screenshot--half project__screenshot--right",
+            "tweak": "top: 9rem;"
+        }
+    ]
+},{
+    "name": "Jolt",
+    "id": "jolt",
+    "skills": "Identity",
+    "projectImage": "/img/projectbgs/jolt-2000x1111.jpg",
+    "projectImageTweak": "background-position: center;",
+    "projectTitleImage": "/img/titleimages/jolt.png",
+    "projectContents": [
+        {
+    		"headline": "a branding exercise",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+    		"text": "This was a logo design exercise I did while working at WiFast. Jolt was a front-runner name for a product we were working on. A main feature of the product was its quickness, and I felt the lightning bolt conveyed that really well. I had a lot of fun on the small details with this one. Unfortunately the product never saw the light of day for other reasons, but I'm happy I was able to create a cool logo for it.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 18rem;"
+    	},{
+            "src": "/img/screenshots/jolt/01.png",
+            "src_lg": "/img/screenshots/jolt/01_lg.jpg",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 40rem;",
+            "imgtweak": "border: 0;"
+        }
+    ]
+},{
+    "name": "Man Crates",
+    "id": "mancrates",
+    "skills": "UX Lead, Front-End Engineer",
+    "projectImage": "/img/projectbgs/mancrates-2000x1111.jpg",
+    "projectImageTweak": "background-position: center top;",
+    "projectTitleImage": "/img/titleimages/mancrates.png",
+    "projectContents": [
+        {
+    		"headline": "owning men's gifts",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/01.png",
+            "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Mid-resolution wireframes for the homepage.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 70rem;"
+    	},{
+    		"headline": "transitioning",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 80rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/02.png",
+            "src_lg": "/img/screenshots/mancrates/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Product cards in the wild",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 96rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "The company relies heavily on ad traffic to generate revenue, and we’re in the process of transitioning and taking a stronger crack at SEO in order to reduce acquisition costs. This means fundamental content changes across the whole site. We started with experimentation on adding abundant unique content on the catalog page. I came up with a design and experience using “product cards” which would fulfill the SEO requirements while simultaneously providing a rich user experience.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 149rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/03.png",
+            "src_lg": "/img/screenshots/mancrates/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Initial sketches for figures A and B",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 180rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"headline": "more transitioning",
+            "format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 168.5rem;"
+    	},{
+    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-resolution wireframes convey that.",
+    		"format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 185rem;"
+    	},{
+    		"link": "http://www.mancrates.com",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 233rem;",
+    		"extra": " rel=noreferrer "
+    	}
+    ]
+}]

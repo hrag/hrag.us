@@ -1,0 +1,27 @@
+
+@import "fonts";
+@import "libs/micsins";
+@import "vars";
+
+html, body {
+	min-width: 100vw;
+  	min-height: 100vh;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	@include full-sized-v;
+	background-color: $commonwhite;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+button {
+	outline: none;
+}
+
+a {
+	outline: none;
+}
