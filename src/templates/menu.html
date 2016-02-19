@@ -6,10 +6,13 @@
 
 	<div class="menu__quickjump">
 		{{#.}}
-		<a href="#project/{{id}}" class="menu__quickjump__item" style="background-image: url('/img/listbgs/{{id}}-500x444.jpg')">{{name}}</a>
+		<a href="#project/{{id}}" class="menu__quickjump__item">
+			{{name}}
+			<div class="menu__quickjump__item__bg" style="background-image: url('/img/listbgs/{{id}}-500x444.jpg')"></div>
+		</a>
 		{{/.}}
 
-		<a href="/" class="menu__quickjump__item menu__quickjump__item--centerpiece">
+		<!-- <a href="/" class="menu__quickjump__item menu__quickjump__item--centerpiece">
 			<div class="insignia">
 				<div id="insignia__top-square" class="insignia__piece insignia__piece__top-square">
 					<svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -48,7 +51,8 @@
 				</div>
 			</div>
 		</div>
-	</a>
+	</a> -->
+	</div>
 
 	<nav class="menu__navigation">
 		<a href="#" class="menu__navigation__home" title="Back Home">HOME</a>

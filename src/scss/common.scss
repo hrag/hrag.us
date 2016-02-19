@@ -682,9 +682,6 @@ h2 {
 			@include border-box;
 			width: 33.33333%;
 			height: 33.33333%;
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
 			text-transform: uppercase;
 			color: $commonwhite;
 			font-size: 1.35rem;
@@ -692,21 +689,39 @@ h2 {
 			text-align: center;
 			padding: 12% 0 0 0;
 			text-decoration: none;
-			&:after {
-				@include transition($tdCommon, $cbCommon);
-				content: '';
+			overflow: hidden;
+			// &:after {
+			// 	@include transition($tdCommon, $cbCommon);
+			// 	content: '';
+			// 	height: 100%;
+			// 	width: 100%;
+			// 	background-color: rgba(0, 0, 0, .25);
+			// 	position: absolute;
+			// 	z-index: 0;
+			// 	top: 0;
+			// 	left: 0;
+
+			// }
+			.menu__quickjump__item__bg {
+				position: absolute;
 				height: 100%;
 				width: 100%;
-				background-color: rgba(0, 0, 0, .2);
-				position: absolute;
-				z-index: 0;
 				top: 0;
 				left: 0;
-
+				background-size: 100%;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				z-index: -1;
+				@include opacity(.7);
+				@include transition($tdCommon, $cbCommon);
+				&:hover {
+					@include opacity(1);
+				}
 			}
 			&:hover {
-				&:after {
-					background-color: rgba(0, 0, 0, 0);
+				.menu__quickjump__item__bg {
+					@include opacity(1);
 				}
 			}
 			&:nth-child(1) {
@@ -716,47 +731,37 @@ h2 {
 			&:nth-child(2) {
 				top: 0;
 				left: 33.33333%;
-
 			}
 			&:nth-child(3) {
 				top: 0;
 				left: 66.66666%;
-
 			}
 			&:nth-child(4) {
 				top: 33.33333%;
 				left: 0;
-
+				padding-top: 11%;
 			}
 			&:nth-child(5) {
 				top: 33.33333%;
-				left: 66.66666%;
-				padding-top: 11%;
+				left: 33.33333%;
 			}
 			&:nth-child(6) {
-				top: 66.66666%;
-				left: 0;
-				padding-top: 11%;
-
+				top: 33.33333%;
+				left: 66.66666%;
 			}
 			&:nth-child(7) {
 				top: 66.66666%;
-				left: 33.33333%;
+				left: 0;
 
 			}
 			&:nth-child(8) {
 				top: 66.66666%;
-				left: 66.66666%;
-
+				left: 33.33333%;
+				padding-top: 11%;
 			}
 			&:nth-child(9) {
-				display: none;
-				top: 33.33333%;
-				left: 33.33333%;
-			}
-			&:nth-child(10) {
-				top: 33.33333%;
-				left: 33.33333%;
+				top: 66.66666%;
+				left: 66.66666%;
 			}
 		}
 	}

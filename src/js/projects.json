@@ -1,4 +1,130 @@
 [{
+    "name": "Seat Ninja",
+    "id": "seatnina",
+    "skills": "Flow/UX, UI, Front-End Engineer",
+    "projectImage": "/img/projectbgs/seatninja-2000x1111.jpg",
+    "projectImageTweak": "background-position: center top;",
+    "projectTitleImage": "/img/titleimages/seatninja.png",
+    "projectContents": [
+        {
+    		"headline": "Your wait is over",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/01.png",
+            "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Mid-resolution wireframes for the homepage.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 70rem;"
+    	},{
+    		"headline": "transitioning",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 80rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/02.png",
+            "src_lg": "/img/screenshots/mancrates/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Product cards in the wild",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 96rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "The company relies heavily on ad traffic to generate revenue, and we’re in the process of transitioning and taking a stronger crack at SEO in order to reduce acquisition costs. This means fundamental content changes across the whole site. We started with experimentation on adding abundant unique content on the catalog page. I came up with a design and experience using “product cards” which would fulfill the SEO requirements while simultaneously providing a rich user experience.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 149rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/03.png",
+            "src_lg": "/img/screenshots/mancrates/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Initial sketches for figures A and B",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 180rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"headline": "more transitioning",
+            "format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 168.5rem;"
+    	},{
+    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-resolution wireframes convey that.",
+    		"format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 185rem;"
+    	},{
+    		"link": "http://www.mancrates.com",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 233rem;",
+    		"extra": " rel=noreferrer "
+    	}
+    ]
+},{
+    "name": "Man Crates",
+    "id": "mancrates",
+    "skills": "UX Lead, Front-End Engineer",
+    "projectImage": "/img/projectbgs/mancrates-2000x1111.jpg",
+    "projectImageTweak": "background-position: center top;",
+    "projectTitleImage": "/img/titleimages/mancrates.png",
+    "projectContents": [
+        {
+    		"headline": "owning men's gifts",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 0rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/01.png",
+            "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
+            "figureno": "A",
+            "caption": "Mid-resolution wireframes for the homepage.",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 18rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 70rem;"
+    	},{
+    		"headline": "transitioning",
+            "format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 80rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/02.png",
+            "src_lg": "/img/screenshots/mancrates/02_lg.jpg",
+            "figureno": "B",
+            "caption": "Product cards in the wild",
+            "format": "project__screenshot--full project__screenshot--center",
+            "tweak": "top: 96rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"text": "The company relies heavily on ad traffic to generate revenue, and we’re in the process of transitioning and taking a stronger crack at SEO in order to reduce acquisition costs. This means fundamental content changes across the whole site. We started with experimentation on adding abundant unique content on the catalog page. I came up with a design and experience using “product cards” which would fulfill the SEO requirements while simultaneously providing a rich user experience.",
+    		"format": "project__screenshot--full project__screenshot--center",
+    		"tweak": "top: 149rem;"
+    	},{
+            "src": "/img/screenshots/mancrates/03.png",
+            "src_lg": "/img/screenshots/mancrates/03_lg.jpg",
+            "figureno": "C",
+            "caption": "Initial sketches for figures A and B",
+            "format": "project__screenshot--half project__screenshot--left",
+            "tweak": "top: 180rem;",
+    		"imgtweak": "border: 0;"
+        },{
+    		"headline": "more transitioning",
+            "format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 168.5rem;"
+    	},{
+    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-resolution wireframes convey that.",
+    		"format": "project__screenshot--half project__screenshot--right",
+    		"tweak": "top: 185rem;"
+    	},{
+    		"link": "http://www.mancrates.com",
+    		"format": "project__screenshot--left project__screenshot--half",
+    		"tweak": "top: 233rem;",
+    		"extra": " rel=noreferrer "
+    	}
+    ]
+},{
     "name": "WiFast",
     "id": "wifast",
     "skills": "UX, UI, Identity, Front-end",
@@ -415,39 +541,6 @@
 
     ]
 },{
-    "name": "Climates",
-    "id": "climates",
-    "skills": "UX, UI, Identity",
-    "projectImage": "/img/projectbgs/climates-2000x1111.jpg",
-    "projectImageTweak": "background-position: center;",
-    "projectTitleImage": "/img/titleimages/climates.png",
-    "projectContents": [
-        {
-    		"headline": "quick & simple",
-            "format": "project__screenshot--half project__screenshot--left",
-    		"tweak": "top: 0rem;"
-    	},{
-            "src": "/img/screenshots/climates/01.jpg",
-            "src_lg": "/img/screenshots/climates/01_lg.jpg",
-            "figureno": "A",
-            "caption": "Quick ways to use the web app.",
-            "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 64rem;"
-        },{
-    		"text": "This was a fun project I did in one day. At a time where everybody was coming out with a nice & sleek weather app, I became inspired. I realized that I usually only care about the temperature and if it was sunny or rainy, so I designed for that. The app would remember and show your recent history and default to the last one. Later on, the user could decide what information appears. It sure beats apps which surface every bit of information available. If you ask me, it's excessive.",
-    		"format": "project__screenshot--half project__screenshot--left",
-    		"tweak": "top: 14rem;"
-    	},{
-            "src": "/img/screenshots/climates/02.jpg",
-            "src_lg": "/img/screenshots/climates/02_lg.jpg",
-            "figureno": "B",
-            "caption": "Possible combinations of weather and their appearance.",
-            "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 9rem;"
-        }
-    ]
-}
-,{
     "name": "Jolt",
     "id": "jolt",
     "skills": "Identity",
@@ -470,68 +563,5 @@
             "tweak": "top: 40rem;",
             "imgtweak": "border: 0;"
         }
-    ]
-},{
-    "name": "Man Crates",
-    "id": "mancrates",
-    "skills": "UX Lead, Front-End Engineer",
-    "projectImage": "/img/projectbgs/mancrates-2000x1111.jpg",
-    "projectImageTweak": "background-position: center top;",
-    "projectTitleImage": "/img/titleimages/mancrates.png",
-    "projectContents": [
-        {
-    		"headline": "owning men's gifts",
-            "format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 0rem;"
-    	},{
-            "src": "/img/screenshots/mancrates/01.png",
-            "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
-            "figureno": "A",
-            "caption": "Mid-resolution wireframes for the homepage.",
-            "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 18rem;",
-    		"imgtweak": "border: 0;"
-        },{
-    		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
-    		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 70rem;"
-    	},{
-    		"headline": "transitioning",
-            "format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 80rem;"
-    	},{
-            "src": "/img/screenshots/mancrates/02.png",
-            "src_lg": "/img/screenshots/mancrates/02_lg.jpg",
-            "figureno": "B",
-            "caption": "Product cards in the wild",
-            "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 96rem;",
-    		"imgtweak": "border: 0;"
-        },{
-    		"text": "The company relies heavily on ad traffic to generate revenue, and we’re in the process of transitioning and taking a stronger crack at SEO in order to reduce acquisition costs. This means fundamental content changes across the whole site. We started with experimentation on adding abundant unique content on the catalog page. I came up with a design and experience using “product cards” which would fulfill the SEO requirements while simultaneously providing a rich user experience.",
-    		"format": "project__screenshot--full project__screenshot--center",
-    		"tweak": "top: 149rem;"
-    	},{
-            "src": "/img/screenshots/mancrates/03.png",
-            "src_lg": "/img/screenshots/mancrates/03_lg.jpg",
-            "figureno": "C",
-            "caption": "Initial sketches for figures A and B",
-            "format": "project__screenshot--half project__screenshot--left",
-            "tweak": "top: 180rem;",
-    		"imgtweak": "border: 0;"
-        },{
-    		"headline": "more transitioning",
-            "format": "project__screenshot--half project__screenshot--right",
-    		"tweak": "top: 168.5rem;"
-    	},{
-    		"text": "We’ve recently begun work on a new homepage for mancrates.com. The goals are to increase conversion by cleverly surfacing products and categories to users. We will be manipulating what shows up dependent on whatever information we can gather from the user. I designed a layout and experience that would allow for that. The project’s scope stays only within the content of the home page, so at this time I’m not looking at the header or the footer, but I came up with an idea for the header on mobile and the sketches and mid-resolution wireframes convey that.",
-    		"format": "project__screenshot--half project__screenshot--right",
-    		"tweak": "top: 185rem;"
-    	},{
-    		"link": "http://www.mancrates.com",
-    		"format": "project__screenshot--left project__screenshot--half",
-    		"tweak": "top: 233rem;",
-    		"extra": " rel=noreferrer "
-    	}
     ]
 }]
