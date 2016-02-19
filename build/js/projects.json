@@ -446,7 +446,8 @@
             "tweak": "top: 9rem;"
         }
     ]
-},{
+}
+,{
     "name": "Jolt",
     "id": "jolt",
     "skills": "Identity",
