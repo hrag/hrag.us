@@ -9,7 +9,7 @@
 a, a:visited, a:active {
 	color: inherit;
 	text-decoration: none;
-	border-bottom: solid .1rem #222;
+	border-bottom: solid 1px #222;
 	&:hover {
 		color: #000;
 	}
@@ -627,7 +627,6 @@ h2 {
 			left: 50%;
 			margin-left: -2.675rem;
 			border: solid 1px $commonwhite;
-
 			> div {
 				@include transition($tdCommon, $cbCommon);
 				background-color: $commonwhite;
@@ -690,18 +689,6 @@ h2 {
 			padding: 12% 0 0 0;
 			text-decoration: none;
 			overflow: hidden;
-			// &:after {
-			// 	@include transition($tdCommon, $cbCommon);
-			// 	content: '';
-			// 	height: 100%;
-			// 	width: 100%;
-			// 	background-color: rgba(0, 0, 0, .25);
-			// 	position: absolute;
-			// 	z-index: 0;
-			// 	top: 0;
-			// 	left: 0;
-
-			// }
 			.menu__quickjump__item__bg {
 				position: absolute;
 				height: 100%;

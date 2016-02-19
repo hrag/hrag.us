@@ -14,7 +14,6 @@ define([], function() {
 			lroutercontroller: 'libs/lroutecontroller',
 			menu: 'helpers/menu',
 			preload: 'helpers/preload',
-			skrollr: 'libs/skrollr'
 		}
 	});
 	require([
@@ -22,23 +21,20 @@ define([], function() {
 		'lrouter',
 		'lroutercontroller',
 		'menu',
-		'skrollr',
 		'preload'
 		],
-		function($, Router, Controller, Menu, Skrollr) {
-
-		var s = Skrollr.init();
+		function($, Router, Controller, Menu) {
 
 		$('.nav-closeback').click(function() {
 			window.history.back();
 		});
 
-		$(['/img/menu-centerpiece-250x250.jpg']).preload();
-
 		$('.nav-menu').click(function() {
 			new Menu();
 		});
 
+
+		// Controllers
 		var home_controller = new Controller("home", {
 			index: "views/home",
 			not_found: "views/home/not_found",

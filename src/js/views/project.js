@@ -37,8 +37,6 @@ define([
 
 		$.get('/templates/project.html', function(template) {
 
-
-
 			var nextProjId;
 			var probjectLength = probject.length;
 			$.each(probject, function(i) {

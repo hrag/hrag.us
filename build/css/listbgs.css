@@ -1,38 +1,4 @@
-@media only screen and (max-width: 50rem) {
-  .list__item--wifast {
-    background-image: url("../img/listbgs/wifast-500x444.jpg"); }
-  .list__item--birdfleet {
-    background-image: url("../img/listbgs/birdfleet-500x444.jpg"); }
-  .list__item--heavybig {
-    background-image: url("../img/listbgs/heavybig-500x444.jpg"); }
-  .list__item--climates {
-    background-image: url("../img/listbgs/climates-500x444.jpg"); }
-  .list__item--trabbutravel {
-    background-image: url("../img/listbgs/trabbutravel-500x444.jpg"); }
-  .list__item--nogifts {
-    background-image: url("../img/listbgs/nogifts-500x444.jpg"); }
-  .list__item--jolt {
-    background-image: url("../img/listbgs/jolt-500x444.jpg"); }
-  .list__item--trabbup2p {
-    background-image: url("../img/listbgs/trabbup2p-500x444.jpg"); } }
-
-@media only screen and (min-width: 50rem) {
-  .list__item--wifast {
-    background-image: url("../img/listbgs/wifast-1000x500.jpg"); }
-  .list__item--birdfleet {
-    background-image: url("../img/listbgs/birdfleet-1000x500.jpg");
-    background-position: center 50%; }
-  .list__item--heavybig {
-    background-image: url("../img/listbgs/heavybig-1000x500.jpg");
-    background-position: right 0; }
-  .list__item--climates {
-    background-image: url("../img/listbgs/climates-1000x500.jpg");
-    background-position: center 75%; }
-  .list__item--trabbutravel {
-    background-image: url("../img/listbgs/trabbutravel-1000x500.jpg");
-    background-position: center; }
-  .list__item--nogifts {
-    background-image: url("../img/listbgs/nogifts-1000x500.jpg"); }
+@media only screen and (max-width:50rem){.list__item--wifast{background-image:url(../img/listbgs/wifast-500x444.jpg)}.list__item--birdfleet{background-image:url(../img/listbgs/birdfleet-500x444.jpg)}.list__item--heavybig{background-image:url(../img/listbgs/heavybig-500x444.jpg)}.list__item--climates{background-image:url(../img/listbgs/climates-500x444.jpg)}.list__item--trabbutravel{background-image:url(../img/listbgs/trabbutravel-500x444.jpg)}.list__item--nogifts{background-image:url(../img/listbgs/nogifts-500x444.jpg)}.list__item--jolt{background-image:url(../img/listbgs/jolt-500x444.jpg)}.list__item--trabbup2p{background-image:url(../img/listbgs/trabbup2p-500x444.jpg)}}@media only screen and (min-width:50rem){.list__item--wifast{background-image:url(../img/listbgs/wifast-1000x500.jpg)}.list__item--birdfleet{background-image:url(../img/listbgs/birdfleet-1000x500.jpg);background-position:center 50%}.list__item--heavybig{background-image:url(../img/listbgs/heavybig-1000x500.jpg);background-position:right 0}.list__item--climates{background-image:url(../img/listbgs/climates-1000x500.jpg);background-position:center 75%}.list__item--trabbutravel{background-image:url(../img/listbgs/trabbutravel-1000x500.jpg);background-position:center}.list__item--nogifts{background-image:url(../img/listbgs/nogifts-1000x500.jpg)}.list__item--jolt{background-image:url(../img/listbgs/jolt-1000x500.jpg);background-position:center}.list__item--trabbup2p{background-image:url(../img/listbgs/trabbup2p-1000x500.jpg);background-position:center}}000x500.jpg"); }
   .list__item--jolt {
     background-image: url("../img/listbgs/jolt-1000x500.jpg");
     background-position: center; }

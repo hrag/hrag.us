@@ -19,14 +19,14 @@ define([
 		var galleryPath = '/img/gallery/';
 		var navcloseback = $('.nav-closeback');
 		var navmenu = $('.nav-menu');
-		var pics = 37 // # pics +1
+		var pics = 48 // # pics +1
 		var escKey = 27;
 
 		var before = new Before('about');
 
 		var galleryObj = function() {
 			var galleryArr = [];
-			for (i = 1; i < pics; i++) {
+			for (i = 1; i <= pics; i++) {
 				if (i < 10) {
 					i = '0'+i.toString();
 				} else {
