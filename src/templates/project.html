@@ -15,7 +15,8 @@
 			<div class="project__screenshot {{format}}" style="{{tweak}}">
 				{{#src}}
 					<figure>
-						<a href="{{src_lg}}" class="project__screenshot__link"><img src="{{.}}" style="{{imgtweak}}"/></a>
+						<a href="{{src_lg_mob}}" class="project__screenshot__link sclink__mobile"><img src="{{.}}" style="{{imgtweak}}"/></a>
+						<a href="{{src_lg}}" class="project__screenshot__link sclink__desktop"><img src="{{.}}" style="{{imgtweak}}"/></a>
 						{{#figureno}}<figcaption><span>Figure {{.}}:</span> {{caption}}</figcaption>{{/figureno}}
 					</figure>
 				{{/src}}

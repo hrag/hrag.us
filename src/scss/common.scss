@@ -51,9 +51,6 @@ h2 {
 	height: 10%;
 }
 
-#mancrates {
-	display: none;
-}
 
 .header__navigation, .menu__navigation {
 	text-align: center;
@@ -92,18 +89,16 @@ h2 {
 
 
 .list {
-
-
 	.list__wrapper {
 		overflow: auto;
 		z-index: 5;
+		background-color: #000;
 	}
 	.list__item {
 		width: 50vw;
 		height: 25vh;
 		padding: 0;
 		float: left;
-		background-color: $commonwhite;
 		background-size: cover;
 		background-repeat: no-repeat;
 		display: block;
@@ -117,6 +112,8 @@ h2 {
 			top: 0;
 			left: 0;
 			z-index: 0;
+			@include opacity(.8);
+
 		}
 		h3 {
 			position: relative;
@@ -126,6 +123,7 @@ h2 {
 			font-family: $opensans-light;
 			font-weight: 100;
 			text-transform: uppercase;
+			z-index: 1;
 		}
 		a {
 			margin: 0;
@@ -689,6 +687,8 @@ h2 {
 			padding: 12% 0 0 0;
 			text-decoration: none;
 			overflow: hidden;
+			border: none;
+			cursor: pointer;
 			.menu__quickjump__item__bg {
 				position: absolute;
 				height: 100%;
@@ -700,6 +700,7 @@ h2 {
 				background-position: center;
 				background-repeat: no-repeat;
 				z-index: -1;
+				cursor: pointer;
 				@include opacity(.7);
 				@include transition($tdCommon, $cbCommon);
 				&:hover {
@@ -714,37 +715,48 @@ h2 {
 			&:nth-child(1) {
 				top: 0;
 				left: 0;
+				border-right: solid 1px #121212;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(2) {
 				top: 0;
 				left: 33.33333%;
+				border-right: solid 1px #121212;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(3) {
 				top: 0;
 				left: 66.66666%;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(4) {
 				top: 33.33333%;
 				left: 0;
 				padding-top: 11%;
+				border-right: solid 1px #121212;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(5) {
 				top: 33.33333%;
 				left: 33.33333%;
+				border-right: solid 1px #121212;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(6) {
 				top: 33.33333%;
 				left: 66.66666%;
+				border-bottom: solid 1px #121212;
 			}
 			&:nth-child(7) {
 				top: 66.66666%;
 				left: 0;
-
+				border-right: solid 1px #121212;
 			}
 			&:nth-child(8) {
 				top: 66.66666%;
 				left: 33.33333%;
 				padding-top: 11%;
+				border-right: solid 1px #121212;
 			}
 			&:nth-child(9) {
 				top: 66.66666%;

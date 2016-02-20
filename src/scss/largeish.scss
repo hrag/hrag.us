@@ -10,6 +10,10 @@
 		@include transition-duration($tdCommon);
 	}
 
+	.sclink__mobile {
+		display: none;
+	}
+
 	.header {
 		position: absolute;
 		.header__top-wrapper {
@@ -40,6 +44,9 @@
 		.close-notice {
 			display: none;
 		}
+		> img {
+			max-width: 100%;
+		}
 	}
 
 	.list {
@@ -48,16 +55,21 @@
 		.list__item {
 			@include border-box;
 			@include transition-duration($tdProj);
-			background-size: 100%;
-			&:hover {
-				background-size: 105%;
-			}
 			h3 {
 				margin-top: -1.3rem;
 				letter-spacing: .1rem;
 				font-size: 2.6rem;
 				@include transition-duration($tdProj);
 				font-weight: 100;
+			}
+			.list__item__bg {
+				background-size: 100%;
+				@include opacity(.75);
+				@include transition-duration($tdProj);
+				&:hover {
+					@include opacity(1);
+					background-size: 103%;
+				}
 			}
 			&:hover {
 				h3 {
@@ -196,6 +208,9 @@
 						height: 255rem !important;
 					}
 					&.project__screenshots--mancrates {
+						height: 268rem !important;
+					}
+					&.project__screenshots--seatninja {
 						height: 268rem !important;
 					}
 					.project__screenshots__whiteblock {

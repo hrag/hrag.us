@@ -1,7 +1,7 @@
 [{
     "name": "Seat Ninja",
     "id": "seatninja",
-    "skills": "Flow/UX, UI, Front-End Engineer",
+    "skills": "Contractor: Flow/UX, UI, Front-End Engineer",
     "projectImage": "/img/projectbgs/seatninja-2000x1111.jpg",
     "projectImageTweak": "background-position: center top;",
     "projectTitleImage": "/img/titleimages/seatninja.png",
@@ -11,12 +11,13 @@
             "format": "project__screenshot--full project__screenshot--center",
     		"tweak": "top: 0rem;"
     	},{
-            "src": "/img/screenshots/mancrates/01.png",
-            "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
+            "src": "/img/screenshots/seatninja/01.jpg",
+            "src_lg": "/img/screenshots/seatninja/01_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/01_lg_mob.jpg",
             "figureno": "A",
-            "caption": "Mid-resolution wireframes for the homepage.",
+            "caption": "Menu for mobile in multiple states.",
             "format": "project__screenshot--full project__screenshot--center",
-            "tweak": "top: 18rem;",
+            "tweak": "top: 12rem;",
     		"imgtweak": "border: 0;"
         },{
     		"text": "Man Crates is an online ecommerce destination which sells awesome gifts for men. When I joined, the engineering team was just two people, and there wasn’t a dedicated person looking after the UX and design of the site. I definitely had my work cut out for me, and I am chipping away at it bit by bit.",
