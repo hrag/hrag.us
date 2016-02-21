@@ -1881,7 +1881,10 @@ More info at: http://github.com/hrag/micsins
     .screenshot .close-notice {
       display: none; }
     .screenshot > img {
-      max-width: 100%; }
+      margin: 3rem auto;
+      margin-top: 3rem; }
+    .screenshot .mobile_screenshot {
+      max-width: 32rem; }
   .list {
     position: absolute;
     z-index: 5; }
@@ -2019,7 +2022,7 @@ More info at: http://github.com/hrag/micsins
       .project .project__wrapper .project__contents .project__screenshots.project__screenshots--mancrates {
         height: 268rem !important; }
       .project .project__wrapper .project__contents .project__screenshots.project__screenshots--seatninja {
-        height: 268rem !important; }
+        height: 535rem !important; }
       .project .project__wrapper .project__contents .project__screenshots .project__screenshots__whiteblock {
         background-color: #fbfbfb;
         width: 100vw;
@@ -2071,6 +2074,22 @@ More info at: http://github.com/hrag/micsins
         .project .project__wrapper .project__contents .project__screenshots .project__screenshot--half.project__screenshot--right {
           left: 50%;
           margin-left: 2.5rem; }
+      .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third {
+        width: 20rem; }
+        .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third.project__screenshot--left {
+          left: 50%;
+          margin-left: -37.5rem; }
+        .project .project__wrapper .project__contents .project__screenshots .project__screenshot--third.project__screenshot--right {
+          left: 50%;
+          margin-left: 17rem; }
+      .project .project__wrapper .project__contents .project__screenshots .project__screenshot--twothirds {
+        width: 51rem; }
+        .project .project__wrapper .project__contents .project__screenshots .project__screenshot--twothirds.project__screenshot--left {
+          left: 50%;
+          margin-left: -37.5rem; }
+        .project .project__wrapper .project__contents .project__screenshots .project__screenshot--twothirds.project__screenshot--right {
+          left: 50%;
+          margin-left: -14rem; }
       .project .project__wrapper .project__contents .project__screenshots .project__screenshot--full {
         max-width: 75rem;
         margin-left: -37.5rem;

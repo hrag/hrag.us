@@ -24,16 +24,114 @@
     		"format": "project__screenshot--full project__screenshot--center",
     		"tweak": "top: 75rem;"
     	},{
-    		"text": "I used Sketch for conceptualizing and designing the final product. The coding portion utilized my SCSS/CSS & and Javascript chops.",
+    		"text": "I used Sketch for conceptualizing and designing the final product. The coding portion utilized my SCSS/CSS & and Javascript chops. The project was built on Angular which I mostly interfaced with, but also contributed to.",
     		"format": "project__screenshot--full project__screenshot--center",
     		"tweak": "top: 92rem;"
     	},{
+            "src": "/img/screenshots/seatninja/02_mob.jpg",
+            "src_lg": "/img/screenshots/seatninja/02_mob_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/02_mob_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
+            "format": "project__screenshot--third project__screenshot--left",
+            "tweak": "top: 109rem;"
+        },{
             "src": "/img/screenshots/seatninja/02_dsk.jpg",
-            "src_lg": "/img/screenshots/seatninja/03-dsk_lg.jpg",
-            "figureno": "C",
-            "caption": "Another early stage sketch.",
+            "src_lg": "/img/screenshots/seatninja/02_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/02_dsk_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a larger (desktop) screen",
+            "format": "project__screenshot--twothirds project__screenshot--right",
+            "tweak": "top: 109rem;"
+        },{
+            "src": "/img/screenshots/seatninja/03_mob.jpg",
+            "src_lg": "/img/screenshots/seatninja/03_mob_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/03_mob_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
+            "format": "project__screenshot--third project__screenshot--right",
+            "tweak": "top: 162.3rem;"
+        },{
+            "src": "/img/screenshots/seatninja/03_dsk.jpg",
+            "src_lg": "/img/screenshots/seatninja/03_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/03_dsk_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a larger (desktop) screen",
+            "format": "project__screenshot--twothirds project__screenshot--left",
+            "tweak": "top: 179rem;"
+        },{
+    		"headline": "Universal",
+            "format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 220.5rem;"
+    	},{
+    		"text": "The research came back that most of the users were on mobile, however there were a lot of users who were still using desktop. The app had to be universal and effectively handle the tasks for both types of users.",
+    		"format": "project__screenshot--half project__screenshot--left",
+    		"tweak": "top: 236rem;"
+    	},{
+            "src": "/img/screenshots/seatninja/04.jpg",
+            "src_lg": "/img/screenshots/seatninja/04_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/04_mob_lg.png",
+            "figureno": "B",
+            "caption": "A restaurant card that could be used anywhere in the app",
             "format": "project__screenshot--half project__screenshot--right",
-            "tweak": "top: 129rem;"
+            "tweak": "top: 223rem;",
+    		"imgtweak": "border: 0; width: 113%; margin-left: -2rem;"
+        },{
+            "src": "/img/screenshots/seatninja/05_mob.jpg",
+            "src_lg": "/img/screenshots/seatninja/05_mob_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/05_mob_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
+            "format": "project__screenshot--third project__screenshot--right",
+            "tweak": "top: 270rem;"
+        },{
+            "src": "/img/screenshots/seatninja/05_dsk.jpg",
+            "src_lg": "/img/screenshots/seatninja/05_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/05_dsk_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a larger (desktop) screen",
+            "format": "project__screenshot--twothirds project__screenshot--left",
+            "tweak": "top: 270rem;"
+        },{
+            "src": "/img/screenshots/seatninja/topbars.png",
+            "src_lg": "/img/screenshots/seatninja/topbars.png",
+            "src_lg_mob": "/img/screenshots/seatninja/topbars_mobile.png",
+            "figureno": "B",
+            "caption": "Top bars for the mobile version showing different levels of urgency during an active \"Jump in Line\" reservation",
+            "format": "project__screenshot--twothirds project__screenshot--left",
+            "tweak": "top: 347rem;"
+        },{
+            "src": "/img/screenshots/seatninja/06_mob.jpg",
+            "src_lg": "/img/screenshots/seatninja/06_mob_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/06_mob_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
+            "format": "project__screenshot--third project__screenshot--right",
+            "tweak": "top: 378rem;"
+        },{
+            "src": "/img/screenshots/seatninja/06_dsk.jpg",
+            "src_lg": "/img/screenshots/seatninja/06_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/06_dsk_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a larger (desktop) screen",
+            "format": "project__screenshot--twothirds project__screenshot--left",
+            "tweak": "top: 386rem;"
+        },{
+            "src": "/img/screenshots/seatninja/07_mob.jpg",
+            "src_lg": "/img/screenshots/seatninja/07_mob_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/07_mob_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
+            "format": "project__screenshot--third project__screenshot--left",
+            "tweak": "top: 447rem;"
+        },{
+            "src": "/img/screenshots/seatninja/07_dsk.jpg",
+            "src_lg": "/img/screenshots/seatninja/07_dsk_lg.png",
+            "src_lg_mob": "/img/screenshots/seatninja/07_dsk_lg.png",
+            "figureno": "B",
+            "caption": "The completed state of the reservation flow on a larger (desktop) screen",
+            "format": "project__screenshot--twothirds project__screenshot--right",
+            "tweak": "top: 447rem;"
         }
     ]
 },{

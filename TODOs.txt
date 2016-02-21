@@ -1,7 +1,10 @@
 TODOs
 
 Feb 19
-- Update gallery
+X Update gallery
 - add SeatNinja
 - Update Resume
 - Update Linked In
+- List layout
+-- Mobile single column
+-- Desktop Triple column

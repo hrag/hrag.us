@@ -70,6 +70,11 @@ define([
 				var theLink = $(this).attr('href');
 				$(this).click(function(e) {
 					e.preventDefault();
+					screenshotLocale.find('img').attr('src', theLink).removeClass('mobile_screenshot');
+					console.log(theLink);
+					if (theLink.indexOf('mob') > 0) {
+						screenshotLocale.find('img').attr('src', theLink).addClass('mobile_screenshot');
+					}
 					screenshotLocale.find('img').attr('src', theLink);
 					screenshotLocale.fadeIn(300);
 					$(document).keyup(function(e){
@@ -87,16 +92,12 @@ define([
 				});
 			});
 
-			// TODO - put this into a function of sorts
-			// totalHeight = totalHeight + $(window).height() / 2;
-			// $('.project__screenshot img').load(function() {
-			// 	totalHeight += $(this).height()+39;
-			// 	totalHeight = totalHeight;
-			// 	$('.project__screenshots').css({'height': (totalHeight * .1)+'rem'});
-			// });
 
 			$('.project__footer__next-button').tap(function() {
 				window.location.hash = 'project/'+nextProjId;
+				$('.project').animate({
+					scrollTop: 0
+				}, '300', 'swing');
 			});
 
 		}).done(function() {

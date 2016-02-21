@@ -45,7 +45,11 @@
 			display: none;
 		}
 		> img {
-			max-width: 100%;
+			margin: 3rem auto;
+			margin-top: 3rem;
+		}
+		.mobile_screenshot {
+			max-width: 32rem;
 		}
 	}
 
@@ -211,7 +215,7 @@
 						height: 268rem !important;
 					}
 					&.project__screenshots--seatninja {
-						height: 268rem !important;
+						height: 535rem !important;
 					}
 					.project__screenshots__whiteblock {
 						background-color: $commonwhite;
@@ -261,6 +265,30 @@
 						&.project__screenshot--right {
 							left: 50%;
 							margin-left: 2.5rem;
+						}
+					}
+
+					.project__screenshot--third {
+						width: 20rem;
+						&.project__screenshot--left {
+							left: 50%;
+							margin-left: -37.5rem;
+						}
+						&.project__screenshot--right {
+							left: 50%; //unknown
+							margin-left: 17rem; //unknown
+						}
+					}
+
+					.project__screenshot--twothirds {
+						width: 51rem;
+						&.project__screenshot--left {
+							left: 50%;
+							margin-left: -37.5rem;
+						}
+						&.project__screenshot--right {
+							left: 50%;
+							margin-left: -14rem;
 						}
 					}
 
