@@ -113,6 +113,15 @@ More info at: http://github.com/hrag/micsins
     -ms-transform: rotate(0);
     transform: rotate(0); }
 
+@media only screen and (max-height: 480px) {
+  .header__navigation {
+    bottom: 23vh !important; }
+  .header__title {
+    position: relative;
+    top: -5vh; }
+  .header__subtitle {
+    top: -4.5vh; } }
+
 @media only screen and (max-width: 50rem) {
   .sclink__desktop {
     display: none; }
@@ -129,6 +138,8 @@ More info at: http://github.com/hrag/micsins
       .header .header__navigation a {
         width: 40%;
         margin-right: 3%; }
+        .header .header__navigation a:nth-child(even) {
+          margin-right: 0; }
   .insignia {
     height: 19rem;
     max-width: 20rem;

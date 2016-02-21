@@ -4,6 +4,18 @@
 @import "fonts";
 @import "vars";
 
+@media only screen and (max-height: 480px) {
+	.header__navigation {
+		bottom: 23vh !important;
+	}
+	.header__title {
+		position: relative;
+		top: -5vh;
+	}
+	.header__subtitle {
+		top: -4.5vh;
+	}
+}
 @media only screen and (max-width: 50rem) {
 	// .resume {
 	// 	height: 100vh;
@@ -43,7 +55,9 @@
 			a {
 				width: 40%;
 				margin-right: 3%;
-
+				&:nth-child(even) {
+					margin-right: 0;
+				}
 			}
 		}
 	}

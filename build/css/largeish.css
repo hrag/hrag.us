@@ -154,7 +154,9 @@ More info at: http://github.com/hrag/micsins
         width: 21%;
         margin-right: 3%; }
         .header .header__navigation a:hover, .header .menu__navigation a:hover {
-          color: #fbfbfb; }
+          color: #fbfbfb;
+          background-color: rgba(255, 255, 255, 0.1);
+          border-color: white; }
   .insignia {
     height: 35rem;
     max-width: 37.8rem;
@@ -400,7 +402,7 @@ More info at: http://github.com/hrag/micsins
     background-color: rgba(0, 0, 0, 0.4); }
     .about .about__nav button {
       margin: 2rem 0;
-      border: solid 0.1rem #fbfbfb;
+      border: solid 0.1rem rgba(255, 255, 255, 0.7);
       -webkit-border-radius: 0.2rem;
       -moz-border-radius: 0.2rem;
       border-radius: 0.2rem;

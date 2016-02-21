@@ -84,7 +84,7 @@ $cbInsignia-in: cubic-bezier(.43,1.08,.65,.97);
 }
 
 @mixin commonButton {
-	border: solid .1rem $commonwhite;
+	border: solid .1rem rgba(255, 255, 255, .7);
 	@include rounded(.2rem);
 	padding: 1rem;
 	background-color: transparent;

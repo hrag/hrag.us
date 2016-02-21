@@ -923,7 +923,7 @@ h2 {
     display: inline-block;
     border: 0;
     text-decoration: none;
-    border: solid 0.1rem #fbfbfb;
+    border: solid 0.1rem rgba(255, 255, 255, 0.7);
     -webkit-border-radius: 0.2rem;
     -moz-border-radius: 0.2rem;
     border-radius: 0.2rem;
@@ -1156,7 +1156,7 @@ h2 {
         font-weight: 100;
         margin: .2rem 0 1.2rem 0; }
       .project .project__wrapper .project__footer button {
-        border: solid 0.1rem #fbfbfb;
+        border: solid 0.1rem rgba(255, 255, 255, 0.7);
         -webkit-border-radius: 0.2rem;
         -moz-border-radius: 0.2rem;
         border-radius: 0.2rem;
@@ -1882,7 +1882,9 @@ More info at: http://github.com/hrag/micsins
         width: 21%;
         margin-right: 3%; }
         .header .header__navigation a:hover, .header .menu__navigation a:hover {
-          color: #fbfbfb; }
+          color: #fbfbfb;
+          background-color: rgba(255, 255, 255, 0.1);
+          border-color: white; }
   .insignia {
     height: 35rem;
     max-width: 37.8rem;
@@ -2128,7 +2130,7 @@ More info at: http://github.com/hrag/micsins
     background-color: rgba(0, 0, 0, 0.4); }
     .about .about__nav button {
       margin: 2rem 0;
-      border: solid 0.1rem #fbfbfb;
+      border: solid 0.1rem rgba(255, 255, 255, 0.7);
       -webkit-border-radius: 0.2rem;
       -moz-border-radius: 0.2rem;
       border-radius: 0.2rem;
@@ -2389,6 +2391,15 @@ More info at: http://github.com/hrag/micsins
     -ms-transform: rotate(0);
     transform: rotate(0); }
 
+@media only screen and (max-height: 480px) {
+  .header__navigation {
+    bottom: 23vh !important; }
+  .header__title {
+    position: relative;
+    top: -5vh; }
+  .header__subtitle {
+    top: -4.5vh; } }
+
 @media only screen and (max-width: 50rem) {
   .sclink__desktop {
     display: none; }
@@ -2405,6 +2416,8 @@ More info at: http://github.com/hrag/micsins
       .header .header__navigation a {
         width: 40%;
         margin-right: 3%; }
+        .header .header__navigation a:nth-child(even) {
+          margin-right: 0; }
   .insignia {
     height: 19rem;
     max-width: 20rem;
