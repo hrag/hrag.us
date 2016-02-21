@@ -39,7 +39,7 @@
             "src": "/img/screenshots/seatninja/02_dsk.jpg",
             "src_lg": "/img/screenshots/seatninja/02_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/02_dsk_lg.png",
-            "figureno": "B",
+            "figureno": "C",
             "caption": "The completed state of the reservation flow on a larger (desktop) screen",
             "format": "project__screenshot--twothirds project__screenshot--right",
             "tweak": "top: 109rem;"
@@ -47,7 +47,7 @@
             "src": "/img/screenshots/seatninja/03_mob.jpg",
             "src_lg": "/img/screenshots/seatninja/03_mob_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/03_mob_lg.png",
-            "figureno": "B",
+            "figureno": "D",
             "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
             "format": "project__screenshot--third project__screenshot--right",
             "tweak": "top: 162.3rem;"
@@ -55,7 +55,7 @@
             "src": "/img/screenshots/seatninja/03_dsk.jpg",
             "src_lg": "/img/screenshots/seatninja/03_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/03_dsk_lg.png",
-            "figureno": "B",
+            "figureno": "E",
             "caption": "The completed state of the reservation flow on a larger (desktop) screen",
             "format": "project__screenshot--twothirds project__screenshot--left",
             "tweak": "top: 179rem;"
@@ -71,7 +71,7 @@
             "src": "/img/screenshots/seatninja/04.jpg",
             "src_lg": "/img/screenshots/seatninja/04_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/04_mob_lg.png",
-            "figureno": "B",
+            "figureno": "F",
             "caption": "A restaurant card that could be used anywhere in the app",
             "format": "project__screenshot--half project__screenshot--right",
             "tweak": "top: 223rem;",
@@ -80,7 +80,7 @@
             "src": "/img/screenshots/seatninja/05_mob.jpg",
             "src_lg": "/img/screenshots/seatninja/05_mob_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/05_mob_lg.png",
-            "figureno": "B",
+            "figureno": "G",
             "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
             "format": "project__screenshot--third project__screenshot--right",
             "tweak": "top: 270rem;"
@@ -88,7 +88,7 @@
             "src": "/img/screenshots/seatninja/05_dsk.jpg",
             "src_lg": "/img/screenshots/seatninja/05_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/05_dsk_lg.png",
-            "figureno": "B",
+            "figureno": "H",
             "caption": "The completed state of the reservation flow on a larger (desktop) screen",
             "format": "project__screenshot--twothirds project__screenshot--left",
             "tweak": "top: 270rem;"
@@ -96,7 +96,7 @@
             "src": "/img/screenshots/seatninja/topbars.png",
             "src_lg": "/img/screenshots/seatninja/topbars.png",
             "src_lg_mob": "/img/screenshots/seatninja/topbars_mobile.png",
-            "figureno": "B",
+            "figureno": "I",
             "caption": "Top bars for the mobile version showing different levels of urgency during an active \"Jump in Line\" reservation",
             "format": "project__screenshot--twothirds project__screenshot--left",
             "tweak": "top: 347rem;"
@@ -104,7 +104,7 @@
             "src": "/img/screenshots/seatninja/06_mob.jpg",
             "src_lg": "/img/screenshots/seatninja/06_mob_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/06_mob_lg.png",
-            "figureno": "B",
+            "figureno": "J",
             "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
             "format": "project__screenshot--third project__screenshot--right",
             "tweak": "top: 378rem;"
@@ -112,7 +112,7 @@
             "src": "/img/screenshots/seatninja/06_dsk.jpg",
             "src_lg": "/img/screenshots/seatninja/06_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/06_dsk_lg.png",
-            "figureno": "B",
+            "figureno": "K",
             "caption": "The completed state of the reservation flow on a larger (desktop) screen",
             "format": "project__screenshot--twothirds project__screenshot--left",
             "tweak": "top: 386rem;"
@@ -120,7 +120,7 @@
             "src": "/img/screenshots/seatninja/07_mob.jpg",
             "src_lg": "/img/screenshots/seatninja/07_mob_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/07_mob_lg.png",
-            "figureno": "B",
+            "figureno": "L",
             "caption": "The completed state of the reservation flow on a smaller (mobile) screen",
             "format": "project__screenshot--third project__screenshot--left",
             "tweak": "top: 447rem;"
@@ -128,7 +128,7 @@
             "src": "/img/screenshots/seatninja/07_dsk.jpg",
             "src_lg": "/img/screenshots/seatninja/07_dsk_lg.png",
             "src_lg_mob": "/img/screenshots/seatninja/07_dsk_lg.png",
-            "figureno": "B",
+            "figureno": "M",
             "caption": "The completed state of the reservation flow on a larger (desktop) screen",
             "format": "project__screenshot--twothirds project__screenshot--right",
             "tweak": "top: 447rem;"
@@ -149,6 +149,7 @@
     	},{
             "src": "/img/screenshots/mancrates/01.png",
             "src_lg": "/img/screenshots/mancrates/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/mancrates/01_lg.jpg",
             "figureno": "A",
             "caption": "Mid-resolution wireframes for the homepage.",
             "format": "project__screenshot--full project__screenshot--center",
@@ -165,6 +166,7 @@
     	},{
             "src": "/img/screenshots/mancrates/02.png",
             "src_lg": "/img/screenshots/mancrates/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/mancrates/02_lg.jpg",
             "figureno": "B",
             "caption": "Product cards in the wild",
             "format": "project__screenshot--full project__screenshot--center",
@@ -177,6 +179,7 @@
     	},{
             "src": "/img/screenshots/mancrates/03.png",
             "src_lg": "/img/screenshots/mancrates/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/mancrates/03_lg.jpg",
             "figureno": "C",
             "caption": "Initial sketches for figures A and B",
             "format": "project__screenshot--half project__screenshot--left",
@@ -198,9 +201,9 @@
     	}
     ]
 },{
-    "name": "WiFast",
+    "name": "Zenreach",
     "id": "wifast",
-    "skills": "UX, UI, Identity, Front-end",
+    "skills": "(formerly WiFast) UX, UI, Identity, Front-end",
     "projectImage": "/img/projectbgs/wifast-2000x1111.jpg",
     "projectImageTweak": "background-position: left center;",
     "projectTitleImage": "/img/titleimages/wifast.png",
@@ -212,6 +215,7 @@
     	},{
             "src": "/img/screenshots/wifast/01.jpg",
             "src_lg": "/img/screenshots/wifast/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/wifast/01_lg.jpg",
             "figureno": "A",
             "caption": "The mobile user experinece for connecting to a WiFast hotspot.",
             "format": "project__screenshot--full",
@@ -237,6 +241,7 @@
     	},{
             "src": "/img/screenshots/wifast/02.jpg",
             "src_lg": "/img/screenshots/wifast/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/wifast/02_lg.jpg",
             "figureno": "B",
             "caption": "An early stage sketch.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -244,6 +249,7 @@
         },{
             "src": "/img/screenshots/wifast/03.jpg",
             "src_lg": "/img/screenshots/wifast/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/wifast/03_lg.jpg",
             "figureno": "C",
             "caption": "Another early stage sketch.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -255,6 +261,7 @@
     	},{
             "src": "/img/screenshots/wifast/04.jpg",
             "src_lg": "/img/screenshots/wifast/04_lg.jpg",
+            "src_lg_mob": "/img/screenshots/wifast/04_lg.jpg",
             "figureno": "D",
             "caption": "Mockup of a timeline-based campain page.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -312,6 +319,7 @@
     	},{
             "src": "/img/screenshots/trabbutravel/01.png",
             "src_lg": "/img/screenshots/trabbutravel/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbutravel/01_lg.jpg",
             "figureno": "A",
             "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
             "format": "project__screenshot--full project__screenshot--center",
@@ -320,6 +328,7 @@
         },{
             "src": "/img/screenshots/trabbutravel/02.jpg",
             "src_lg": "/img/screenshots/trabbutravel/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbutravel/02_lg.jpg",
             "figureno": "B",
             "caption": "The sign up screen for Trabbu. Facebook was required to verify the user.",
             "format": "project__screenshot--half project__screenshot--left",
@@ -327,6 +336,7 @@
         },{
             "src": "/img/screenshots/trabbutravel/03.jpg",
             "src_lg": "/img/screenshots/trabbutravel/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbutravel/03_lg.jpg",
             "figureno": "C",
             "caption": "The dashboard for managing the campaign.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -360,6 +370,7 @@
     	},{
             "src": "/img/screenshots/birdfleet/01.jpg",
             "src_lg": "/img/screenshots/birdfleet/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/birdfleet/01_lg.jpg",
             "figureno": "A",
             "caption": "Send message view.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -367,6 +378,7 @@
         },{
             "src": "/img/screenshots/birdfleet/03.jpg",
             "src_lg": "/img/screenshots/birdfleet/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/birdfleet/03_lg.jpg",
             "figureno": "B",
             "caption": "Manage numbers view showing different states.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -378,6 +390,7 @@
     	},{
             "src": "/img/screenshots/birdfleet/02.jpg",
             "src_lg": "/img/screenshots/birdfleet/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/birdfleet/02_lg.jpg",
             "figureno": "C",
             "caption": "Signup view.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -389,6 +402,7 @@
     	},{
             "src": "/img/screenshots/birdfleet/04.jpg",
             "src_lg": "/img/screenshots/birdfleet/04_lg.jpg",
+            "src_lg_mob": "/img/screenshots/birdfleet/04_lg.jpg",
             "format": "project__screenshot--half project__screenshot--left",
             "tweak": "top: 133rem;"
         },{
@@ -412,6 +426,7 @@
     	},{
             "src": "/img/screenshots/trabbup2p/01.png",
             "src_lg": "/img/screenshots/trabbup2p/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbup2p/01_lg.jpg",
             "figureno": "A",
             "caption": "Homepage concept.",
             "format": "project__screenshot--full project__screenshot--center",
@@ -424,6 +439,7 @@
     	},{
             "src": "/img/screenshots/trabbup2p/02.jpg",
             "src_lg": "/img/screenshots/trabbup2p/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbup2p/02_lg.jpg",
             "figureno": "B",
             "caption": "Basic customer approach flowchart.",
             "format": "project__screenshot--right project__screenshot--half",
@@ -431,6 +447,7 @@
         },{
             "src": "/img/screenshots/trabbup2p/03.jpg",
             "src_lg": "/img/screenshots/trabbup2p/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbup2p/03_lg.jpg",
             "figureno": "C",
             "caption": "Item page concept",
             "format": "project__screenshot--half project__screenshot--right",
@@ -438,6 +455,7 @@
         },{
             "src": "/img/screenshots/trabbup2p/04.jpg",
             "src_lg": "/img/screenshots/trabbup2p/04_lg.jpg",
+            "src_lg_mob": "/img/screenshots/trabbup2p/04_lg.jpg",
             "figureno": "D",
             "caption": "Followers/Following page concept",
             "format": "project__screenshot--half project__screenshot--left",
@@ -471,6 +489,7 @@
     	},{
             "src": "/img/screenshots/heavybig/01.jpg",
             "src_lg": "/img/screenshots/heavybig/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/heavybig/01_lg.jpg",
             "figureno": "A",
             "caption": "Landing page for Heavybig, the homepage for selling my own goods.",
             "format": "project__screenshot--full project__screenshot--center",
@@ -483,6 +502,7 @@
     	},{
             "src": "/img/screenshots/heavybig/02.jpg",
             "src_lg": "/img/screenshots/heavybig/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/heavybig/02_lg.jpg",
             "figureno": "B",
             "caption": "The \"About\" view on Heavybig. Me holding a few lamp bases.",
             "format": "project__screenshot--half project__screenshot--left",
@@ -498,6 +518,7 @@
     	},{
             "src": "/img/screenshots/heavybig/03.jpg",
             "src_lg": "/img/screenshots/heavybig/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/heavybig/03_lg.jpg",
             "figureno": "C",
             "caption": "Sales page for the Jar Lamp.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -542,6 +563,7 @@
     	},{
             "src": "/img/screenshots/nogifts/01.jpg",
             "src_lg": "/img/screenshots/nogifts/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/01_lg.jpg",
             "figureno": "A",
             "caption": "Books on books on books.",
             "format": "project__screenshot--full project__screenshot--center",
@@ -553,6 +575,7 @@
     	},{
             "src": "/img/screenshots/nogifts/02.jpg",
             "src_lg": "/img/screenshots/nogifts/02_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/02_lg.jpg",
             "figureno": "B",
             "caption": "Typeface and branding layout example.",
             "format": "project__screenshot--half project__screenshot--left",
@@ -560,6 +583,7 @@
         },{
             "src": "/img/screenshots/nogifts/03.jpg",
             "src_lg": "/img/screenshots/nogifts/03_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/03_lg.jpg",
             "figureno": "C",
             "caption": "A page from the front matter.",
             "format": "project__screenshot--half project__screenshot--left",
@@ -567,6 +591,7 @@
         },{
             "src": "/img/screenshots/nogifts/04.jpg",
             "src_lg": "/img/screenshots/nogifts/04_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/04_lg.jpg",
             "figureno": "D",
             "caption": "A page describing the different types of pages found in the book.",
             "format": "project__screenshot--half project__screenshot--right",
@@ -578,6 +603,7 @@
     	},{
             "src": "/img/screenshots/nogifts/05.jpg",
             "src_lg": "/img/screenshots/nogifts/05_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/05_lg.jpg",
             "figureno": "E",
             "caption": "Never...",
             "format": "project__screenshot--half project__screenshot--left",
@@ -585,6 +611,7 @@
         },{
             "src": "/img/screenshots/nogifts/06.jpg",
             "src_lg": "/img/screenshots/nogifts/06_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/06_lg.jpg",
             "figureno": "F",
             "caption": "Gonna...",
             "format": "project__screenshot--half project__screenshot--right",
@@ -592,6 +619,7 @@
         },{
             "src": "/img/screenshots/nogifts/07.jpg",
             "src_lg": "/img/screenshots/nogifts/07_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/07_lg.jpg",
             "figureno": "G",
             "caption": "Give...",
             "format": "project__screenshot--half project__screenshot--left",
@@ -599,6 +627,7 @@
         },{
             "src": "/img/screenshots/nogifts/08.jpg",
             "src_lg": "/img/screenshots/nogifts/08_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/08_lg.jpg",
             "figureno": "H",
             "caption": "You...",
             "format": "project__screenshot--half project__screenshot--right",
@@ -606,6 +635,7 @@
         },{
             "src": "/img/screenshots/nogifts/09.jpg",
             "src_lg": "/img/screenshots/nogifts/09_lg.jpg",
+            "src_lg_mob": "/img/screenshots/nogifts/09_lg.jpg",
             "figureno": "I",
             "caption": "Up.",
             "format": "project__screenshot--half project__screenshot--left",
@@ -632,6 +662,7 @@
     	},{
             "src": "/img/screenshots/jolt/01.png",
             "src_lg": "/img/screenshots/jolt/01_lg.jpg",
+            "src_lg_mob": "/img/screenshots/jolt/01_lg.jpg",
             "format": "project__screenshot--full project__screenshot--center",
             "tweak": "top: 40rem;",
             "imgtweak": "border: 0;"
