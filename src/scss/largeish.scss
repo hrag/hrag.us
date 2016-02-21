@@ -57,6 +57,10 @@
 		position: absolute;
 		z-index: 5;
 		.list__item {
+			width: 33.333333%;
+			width: 33.333333vw;
+			height: 33.333339%;
+			height: 33.333339vh;
 			@include border-box;
 			@include transition-duration($tdProj);
 			h3 {
@@ -67,12 +71,13 @@
 				font-weight: 100;
 			}
 			.list__item__bg {
-				background-size: 100%;
+				background-size: 300%;
+				background-size: cover;
 				@include opacity(.75);
 				@include transition-duration($tdProj);
 				&:hover {
 					@include opacity(1);
-					background-size: 103%;
+					// background-size: 305%;
 				}
 			}
 			&:hover {

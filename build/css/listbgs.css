@@ -1,24 +1,34 @@
 @media only screen and (max-width: 50rem) {
-  .list__item--wifast > div {
-    background-image: url("../img/listbgs/seatninja-500x444.jpg"); }
+  .list__item--seatninja > div {
+    background-image: url("../img/listbgs/seatninja-500x444.jpg");
+    background-position: center 50%; }
   .list__item--mancrates > div {
-    background-image: url("../img/listbgs/mancrates-500x444.jpg"); }
+    background-image: url("../img/listbgs/mancrates-500x444.jpg");
+    background-position: center 50%; }
   .list__item--wifast > div {
-    background-image: url("../img/listbgs/wifast-500x444.jpg"); }
+    background-image: url("../img/listbgs/wifast-500x444.jpg");
+    background-position: center 50%; }
   .list__item--birdfleet > div {
-    background-image: url("../img/listbgs/birdfleet-500x444.jpg"); }
+    background-image: url("../img/listbgs/birdfleet-500x444.jpg");
+    background-position: center 50%; }
   .list__item--heavybig > div {
-    background-image: url("../img/listbgs/heavybig-500x444.jpg"); }
+    background-image: url("../img/listbgs/heavybig-500x444.jpg");
+    background-position: center 50%; }
   .list__item--climates > div {
-    background-image: url("../img/listbgs/climates-500x444.jpg"); }
+    background-image: url("../img/listbgs/climates-500x444.jpg");
+    background-position: center 50%; }
   .list__item--trabbutravel > div {
-    background-image: url("../img/listbgs/trabbutravel-500x444.jpg"); }
+    background-image: url("../img/listbgs/trabbutravel-500x444.jpg");
+    background-position: center 50%; }
   .list__item--nogifts > div {
-    background-image: url("../img/listbgs/nogifts-500x444.jpg"); }
+    background-image: url("../img/listbgs/nogifts-500x444.jpg");
+    background-position: center 50%; }
   .list__item--jolt > div {
-    background-image: url("../img/listbgs/jolt-500x444.jpg"); }
+    background-image: url("../img/listbgs/jolt-500x444.jpg");
+    background-position: center 50%; }
   .list__item--trabbup2p > div {
-    background-image: url("../img/listbgs/trabbup2p-500x444.jpg"); } }
+    background-image: url("../img/listbgs/trabbup2p-500x444.jpg");
+    background-position: center 50%; } }
 
 @media only screen and (min-width: 50rem) {
   .list__item--seatninja > div {

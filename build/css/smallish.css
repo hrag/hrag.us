@@ -133,11 +133,18 @@ More info at: http://github.com/hrag/micsins
     height: 19rem;
     max-width: 20rem;
     margin: 7vh auto 0 auto; }
-  .list .list__item h3 {
-    margin-top: -1rem;
-    font-size: 2rem; }
+  .firstlook {
+    height: 100%; }
+  .list .list__item {
+    width: 100%;
+    width: 100vw;
+    height: 20%;
+    height: 20vh; }
+    .list .list__item h3 {
+      margin-top: -1rem;
+      font-size: 2rem; }
   .list .list__item--nogifts h3, .list .list__item--trabbutravel h3 {
-    margin-top: -2rem; }
+    margin-top: -1rem; }
   .screenshot {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch; }

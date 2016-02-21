@@ -53,11 +53,16 @@
 		margin: 7vh auto 0 auto;
 	}
 
-	.list {
-		.list__wrapper {
+	.firstlook {
+		height: 100%;
+	}
 
-		}
+	.list {
 		.list__item {
+			width: 100%;
+			width: 100vw;
+			height: 20%;
+			height: 20vh;
 			h3 {
 				margin-top: -1rem;
 				font-size: 2rem;
@@ -65,7 +70,7 @@
 		}
 
 		.list__item--nogifts h3, .list__item--trabbutravel h3 {
-			margin-top: -2rem;
+			margin-top: -1rem;
 		}
 	}
 
