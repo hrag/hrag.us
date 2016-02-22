@@ -80,6 +80,8 @@ define([
 				} else if (picToLoad == (pics-1)) {
 					oneRight = formatPicNum(01);
 				}
+
+
 				var leftlarge = (galleryPath+'lg'+oneLeft+'.jpg').toString();
 				var rightlarge = (galleryPath+'lg'+oneRight+'.jpg').toString();
 				var leftsmall = (galleryPath+'sm'+oneLeft+'.jpg').toString();
@@ -116,7 +118,7 @@ define([
 				backOne = formatPicNum(pics-1)
 				forwardOne = formatPicNum(currentPic+1);
 
-			} else if (currentPic == (pics-1)) {
+			} else if (currentPic == pics) {
 
 				backOne = formatPicNum(currentPic-1);
 				forwardOne = formatPicNum(01);
